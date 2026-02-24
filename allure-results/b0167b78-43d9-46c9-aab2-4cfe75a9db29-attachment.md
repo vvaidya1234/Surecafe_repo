@@ -1,0 +1,1098 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e6]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Toggle sidebar" [ref=e10] [cursor=pointer]:
+            - generic [ref=e11]: Toggle sidebar
+            - img [ref=e12]
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /
+            - img [ref=e18]
+        - menubar [ref=e20]:
+          - menuitem "Dashboard" [ref=e21] [cursor=pointer]:
+            - generic [ref=e22]: Dashboard
+        - button "Open profile menu" [ref=e23] [cursor=pointer]:
+          - img "Profile picture of Surecafe demo" [ref=e25]
+    - generic [ref=e29]:
+      - list [ref=e33]:
+        - listitem [ref=e34]:
+          - link "Dashboard" [ref=e35] [cursor=pointer]:
+            - /url: /
+            - img [ref=e38]
+            - generic "Dashboard" [ref=e40]
+        - listitem [ref=e41]:
+          - link "Candidate Pipelines" [ref=e42] [cursor=pointer]:
+            - /url: /candidate-pipelines
+            - img [ref=e45]
+            - generic "Candidate Pipelines" [ref=e47]
+        - listitem [ref=e48]:
+          - link "Candidates" [ref=e49] [cursor=pointer]:
+            - /url: /candidates
+            - img [ref=e52]
+            - generic "Candidates" [ref=e54]
+        - listitem [ref=e55]:
+          - link "Job Descriptions" [ref=e56] [cursor=pointer]:
+            - /url: /job-descriptions-list
+            - img [ref=e59]
+            - generic "Job Descriptions" [ref=e61]
+        - listitem [ref=e62]:
+          - link "JD-Candidates Matching" [ref=e63] [cursor=pointer]:
+            - /url: /jd-candidates-matching
+            - img [ref=e66]
+            - generic "JD-Candidates Matching" [ref=e68]
+        - listitem [ref=e69]:
+          - button "Settings" [ref=e70] [cursor=pointer]:
+            - img [ref=e73]
+            - generic [ref=e76]: Settings
+            - img [ref=e77]
+      - separator [ref=e79]
+    - main [ref=e80]:
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - heading "Candidate Pipelines" [level=1] [ref=e89]
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - img [ref=e92]
+              - textbox "Search candidates, job titles..." [ref=e95]
+            - button " Reset Filters" [ref=e96] [cursor=pointer]:
+              - generic [ref=e97]: 
+              - text: Reset Filters
+            - button " Reload Data" [ref=e98] [cursor=pointer]:
+              - generic [ref=e99]: 
+              - text: Reload Data
+            - generic [ref=e100]:
+              - button " Board" [ref=e101] [cursor=pointer]:
+                - generic [ref=e102]: 
+                - text: Board
+              - button " List" [ref=e103] [cursor=pointer]:
+                - generic [ref=e104]: 
+                - text: List
+          - generic [ref=e105]:
+            - button "All (13)" [ref=e106] [cursor=pointer]
+            - button "Leads (0)" [ref=e107] [cursor=pointer]
+            - button "Screening Process (3)" [ref=e108] [cursor=pointer]
+            - button "SureCafe Evaluation (3)" [ref=e109] [cursor=pointer]
+            - button "SureCafe Review (6)" [ref=e110] [cursor=pointer]
+            - button "Interview Stage (0)" [ref=e111] [cursor=pointer]
+            - button "ShortListed (0)" [ref=e112] [cursor=pointer]
+            - button "Onboarded (0)" [ref=e113] [cursor=pointer]
+            - button "Rejected (1)" [ref=e114] [cursor=pointer]
+          - generic [ref=e117]:
+            - generic [ref=e118]:
+              - generic [ref=e120]:
+                - heading " CodeIgniter Developer" [level=5] [ref=e121]
+                - generic [ref=e122]: 5 candidates
+                - button "↗️ Share Details" [ref=e123] [cursor=pointer]
+              - generic [ref=e124]:
+                - generic [ref=e126]: Leads (0)
+                - generic [ref=e128]: Screening Process (0)
+                - generic [ref=e129]:
+                  - generic [ref=e130]: SureCafe Evaluation (1)
+                  - generic [ref=e132] [cursor=pointer]:
+                    - generic [ref=e133]:
+                      - generic [ref=e134]: Rahul Sharma
+                      - generic [ref=e135]:
+                        - generic [ref=e136]:
+                          - strong [ref=e137]: "Role:"
+                          - text: CodeIgniter Developer
+                        - generic [ref=e138]:
+                          - strong [ref=e139]: "Exp:"
+                          - text: 4 years
+                        - generic [ref=e140]:
+                          - strong [ref=e141]: "Status:"
+                          - text: Evaluation Scheduled
+                    - generic [ref=e143]:
+                      - generic "Initial Video Analysis" [ref=e144]:
+                        - generic [ref=e145]: 
+                      - generic "Do Interview Analysis" [ref=e146]:
+                        - generic [ref=e147]: 
+                      - generic "Send Email" [ref=e148]:
+                        - generic "Send Email" [ref=e149]: 
+                      - generic "Candidate Communication Details" [ref=e150]:
+                        - generic [ref=e151]: 
+                      - generic "Change Status" [ref=e152]:
+                        - generic [ref=e153]: 
+                      - generic "View Career Arc" [ref=e154]:
+                        - generic [ref=e155]: 
+                - generic [ref=e156]:
+                  - generic [ref=e157]: SureCafe Review (3)
+                  - generic [ref=e158]:
+                    - generic [ref=e159] [cursor=pointer]:
+                      - generic [ref=e160]:
+                        - generic [ref=e161]: Samantha
+                        - generic [ref=e162]:
+                          - generic [ref=e163]:
+                            - strong [ref=e164]: "Role:"
+                            - text: Software Developer
+                          - generic [ref=e165]:
+                            - strong [ref=e166]: "Exp:"
+                            - text: 8 years
+                          - generic [ref=e167]:
+                            - strong [ref=e168]: "Status:"
+                            - text: SureCafe Review - Select
+                      - generic [ref=e170]:
+                        - generic "Initial Video Analysis" [ref=e171]:
+                          - generic [ref=e172]: 
+                        - generic "Interview Analysis" [ref=e173]:
+                          - generic [ref=e174]: 
+                        - generic "Send Email" [ref=e175]:
+                          - generic "Send Email" [ref=e176]: 
+                        - generic "Candidate Communication Details" [ref=e177]:
+                          - generic [ref=e178]: 
+                        - generic "Change Status" [ref=e179]:
+                          - generic [ref=e180]: 
+                        - generic "View Career Arc" [ref=e181]:
+                          - generic [ref=e182]: 
+                    - generic [ref=e183] [cursor=pointer]:
+                      - generic [ref=e184]:
+                        - generic [ref=e185]: Vishal Kelly
+                        - generic [ref=e186]:
+                          - generic [ref=e187]:
+                            - strong [ref=e188]: "Role:"
+                            - text: PHP Developer (Consulting/Contracting Projects)
+                          - generic [ref=e189]:
+                            - strong [ref=e190]: "Exp:"
+                            - text: 8 years
+                          - generic [ref=e191]:
+                            - strong [ref=e192]: "Status:"
+                            - text: SureCafe Review - Select
+                      - generic [ref=e194]:
+                        - generic "Initial Video Analysis" [ref=e195]:
+                          - generic [ref=e196]: 
+                        - generic "Send Email" [ref=e197]:
+                          - generic "Send Email" [ref=e198]: 
+                        - generic "Candidate Communication Details" [ref=e199]:
+                          - generic [ref=e200]: 
+                        - generic "Change Status" [ref=e201]:
+                          - generic [ref=e202]: 
+                        - generic "View Career Arc" [ref=e203]:
+                          - generic [ref=e204]: 
+                    - generic [ref=e205] [cursor=pointer]:
+                      - generic [ref=e206]:
+                        - generic [ref=e207]: Seema Kale
+                        - generic [ref=e208]:
+                          - generic [ref=e209]:
+                            - strong [ref=e210]: "Role:"
+                            - text: Laravel Developer
+                          - generic [ref=e211]:
+                            - strong [ref=e212]: "Exp:"
+                            - text: 4 years
+                          - generic [ref=e213]:
+                            - strong [ref=e214]: "Status:"
+                            - text: SureCafe Review - Select
+                      - generic [ref=e216]:
+                        - generic "Initial Video Analysis" [ref=e217]:
+                          - generic [ref=e218]: 
+                        - generic "Bot Interview Analysis" [ref=e219]:
+                          - generic [ref=e220]: 
+                        - generic "Send Email" [ref=e221]:
+                          - generic "Send Email" [ref=e222]: 
+                        - generic "Candidate Communication Details" [ref=e223]:
+                          - generic [ref=e224]: 
+                        - generic "Change Status" [ref=e225]:
+                          - generic [ref=e226]: 
+                        - generic "View Career Arc" [ref=e227]:
+                          - generic [ref=e228]: 
+                - generic [ref=e230]: Interview Stage (0)
+                - generic [ref=e232]: ShortListed (0)
+                - generic [ref=e234]: Onboarded (0)
+                - generic [ref=e235]:
+                  - generic [ref=e236]: Rejected (1)
+                  - generic [ref=e238] [cursor=pointer]:
+                    - generic [ref=e239]:
+                      - generic [ref=e240]: Harish
+                      - generic [ref=e241]:
+                        - generic [ref=e242]:
+                          - strong [ref=e243]: "Role:"
+                          - text: PHP Developer
+                        - generic [ref=e244]:
+                          - strong [ref=e245]: "Exp:"
+                          - text: 4+ years
+                        - generic [ref=e246]:
+                          - strong [ref=e247]: "Status:"
+                          - text: Rejected
+                    - generic [ref=e249]:
+                      - generic "Send Email" [ref=e250]:
+                        - generic "Send Email" [ref=e251]: 
+                      - generic "Candidate Communication Details" [ref=e252]:
+                        - generic [ref=e253]: 
+                      - generic "Change Status" [ref=e254]:
+                        - generic [ref=e255]: 
+                      - generic "View Career Arc" [ref=e256]:
+                        - generic [ref=e257]: 
+            - generic [ref=e258]:
+              - generic [ref=e260]:
+                - heading " Jr. Full Stack Developer India" [level=5] [ref=e261]
+                - generic [ref=e262]: 4 candidates
+                - button "↗️ Share Details" [ref=e263] [cursor=pointer]
+              - generic [ref=e264]:
+                - generic [ref=e266]: Leads (0)
+                - generic [ref=e267]:
+                  - generic [ref=e268]: Screening Process (1)
+                  - generic [ref=e270] [cursor=pointer]:
+                    - generic [ref=e271]:
+                      - generic [ref=e272]: Samantha
+                      - generic [ref=e273]:
+                        - generic [ref=e274]:
+                          - strong [ref=e275]: "Role:"
+                          - text: Software Developer
+                        - generic [ref=e276]:
+                          - strong [ref=e277]: "Exp:"
+                          - text: 8 years
+                        - generic [ref=e278]:
+                          - strong [ref=e279]: "Status:"
+                          - text: Evaluation Requested
+                    - generic [ref=e281]:
+                      - generic "Send Email" [ref=e282]:
+                        - generic "Send Email" [ref=e283]: 
+                      - generic "Candidate Communication Details" [ref=e284]:
+                        - generic [ref=e285]: 
+                      - generic "Change Status" [ref=e286]:
+                        - generic [ref=e287]: 
+                      - generic "View Career Arc" [ref=e288]:
+                        - generic [ref=e289]: 
+                - generic [ref=e291]: SureCafe Evaluation (0)
+                - generic [ref=e292]:
+                  - generic [ref=e293]: SureCafe Review (3)
+                  - generic [ref=e294]:
+                    - generic [ref=e295] [cursor=pointer]:
+                      - generic [ref=e296]:
+                        - generic [ref=e297]: Rahul Sharma
+                        - generic [ref=e298]:
+                          - generic [ref=e299]:
+                            - strong [ref=e300]: "Role:"
+                            - text: CodeIgniter Developer
+                          - generic [ref=e301]:
+                            - strong [ref=e302]: "Exp:"
+                            - text: 4 years
+                          - generic [ref=e303]:
+                            - strong [ref=e304]: "Status:"
+                            - text: SureCafe Review - Select
+                      - generic [ref=e306]:
+                        - generic "Send Email" [ref=e307]:
+                          - generic "Send Email" [ref=e308]: 
+                        - generic "Candidate Communication Details" [ref=e309]:
+                          - generic [ref=e310]: 
+                        - generic "Change Status" [ref=e311]:
+                          - generic [ref=e312]: 
+                        - generic "View Career Arc" [ref=e313]:
+                          - generic [ref=e314]: 
+                    - generic [ref=e315] [cursor=pointer]:
+                      - generic [ref=e316]:
+                        - generic [ref=e317]: Sandeep Kadam
+                        - generic [ref=e318]:
+                          - generic [ref=e319]:
+                            - strong [ref=e320]: "Role:"
+                            - text: Senior PHP Developer
+                          - generic [ref=e321]:
+                            - strong [ref=e322]: "Exp:"
+                            - text: 8 years
+                          - generic [ref=e323]:
+                            - strong [ref=e324]: "Status:"
+                            - text: SureCafe Review - Select
+                      - generic [ref=e326]:
+                        - generic "Send Email" [ref=e327]:
+                          - generic "Send Email" [ref=e328]: 
+                        - generic "Candidate Communication Details" [ref=e329]:
+                          - generic [ref=e330]: 
+                        - generic "Change Status" [ref=e331]:
+                          - generic [ref=e332]: 
+                        - generic "View Career Arc" [ref=e333]:
+                          - generic [ref=e334]: 
+                    - generic [ref=e335] [cursor=pointer]:
+                      - generic [ref=e336]:
+                        - generic [ref=e337]: Pankaj Kumar Sahu
+                        - generic [ref=e338]:
+                          - generic [ref=e339]:
+                            - strong [ref=e340]: "Role:"
+                            - text: Lead Software Engineer
+                          - generic [ref=e341]:
+                            - strong [ref=e342]: "Exp:"
+                            - text: 9 Years
+                          - generic [ref=e343]:
+                            - strong [ref=e344]: "Status:"
+                            - text: SureCafe Review - Select
+                      - generic [ref=e346]:
+                        - generic "Send Email" [ref=e347]:
+                          - generic "Send Email" [ref=e348]: 
+                        - generic "Candidate Communication Details" [ref=e349]:
+                          - generic [ref=e350]: 
+                        - generic "Change Status" [ref=e351]:
+                          - generic [ref=e352]: 
+                        - generic "View Career Arc" [ref=e353]:
+                          - generic [ref=e354]: 
+                - generic [ref=e356]: Interview Stage (0)
+                - generic [ref=e358]: ShortListed (0)
+                - generic [ref=e360]: Onboarded (0)
+                - generic [ref=e362]: Rejected (0)
+            - generic [ref=e363]:
+              - generic [ref=e365]:
+                - heading " Laravel Developer" [level=5] [ref=e366]
+                - generic [ref=e367]: 4 candidates
+                - button "↗️ Share Details" [ref=e368] [cursor=pointer]
+              - generic [ref=e369]:
+                - generic [ref=e371]: Leads (0)
+                - generic [ref=e372]:
+                  - generic [ref=e373]: Screening Process (2)
+                  - generic [ref=e374]:
+                    - generic [ref=e375] [cursor=pointer]:
+                      - generic [ref=e376]:
+                        - generic [ref=e377]: Harish
+                        - generic [ref=e378]:
+                          - generic [ref=e379]:
+                            - strong [ref=e380]: "Role:"
+                            - text: PHP Developer
+                          - generic [ref=e381]:
+                            - strong [ref=e382]: "Exp:"
+                            - text: 4+ years
+                          - generic [ref=e383]:
+                            - strong [ref=e384]: "Status:"
+                            - text: Evaluation Requested
+                      - generic [ref=e386]:
+                        - generic "Send Email" [ref=e387]:
+                          - generic "Send Email" [ref=e388]: 
+                        - generic "Candidate Communication Details" [ref=e389]:
+                          - generic [ref=e390]: 
+                        - generic "Change Status" [ref=e391]:
+                          - generic [ref=e392]: 
+                        - generic "View Career Arc" [ref=e393]:
+                          - generic [ref=e394]: 
+                    - generic [ref=e395] [cursor=pointer]:
+                      - generic [ref=e396]:
+                        - generic [ref=e397]: Daina Zen
+                        - generic [ref=e398]:
+                          - generic [ref=e399]:
+                            - strong [ref=e400]: "Role:"
+                            - text: PHP Developer
+                          - generic [ref=e401]:
+                            - strong [ref=e402]: "Exp:"
+                            - text: 4+ years
+                          - generic [ref=e403]:
+                            - strong [ref=e404]: "Status:"
+                            - text: Evaluation Requested
+                      - generic [ref=e406]:
+                        - generic "Send Email" [ref=e407]:
+                          - generic "Send Email" [ref=e408]: 
+                        - generic "Candidate Communication Details" [ref=e409]:
+                          - generic [ref=e410]: 
+                        - generic "Change Status" [ref=e411]:
+                          - generic [ref=e412]: 
+                        - generic "View Career Arc" [ref=e413]:
+                          - generic [ref=e414]: 
+                - generic [ref=e415]:
+                  - generic [ref=e416]: SureCafe Evaluation (2)
+                  - generic [ref=e417]:
+                    - generic [ref=e418] [cursor=pointer]:
+                      - generic [ref=e419]:
+                        - generic [ref=e420]: Vishal Kelly
+                        - generic [ref=e421]:
+                          - generic [ref=e422]:
+                            - strong [ref=e423]: "Role:"
+                            - text: PHP Developer (Consulting/Contracting Projects)
+                          - generic [ref=e424]:
+                            - strong [ref=e425]: "Exp:"
+                            - text: 8 years
+                          - generic [ref=e426]:
+                            - strong [ref=e427]: "Status:"
+                            - text: Evaluation Scheduled
+                      - generic [ref=e429]:
+                        - generic "Schedule Interview" [ref=e430]:
+                          - generic [ref=e431]: 
+                        - generic "Send Email" [ref=e432]:
+                          - generic "Send Email" [ref=e433]: 
+                        - generic "Candidate Communication Details" [ref=e434]:
+                          - generic [ref=e435]: 
+                        - generic "Change Status" [ref=e436]:
+                          - generic [ref=e437]: 
+                        - generic "View Career Arc" [ref=e438]:
+                          - generic [ref=e439]: 
+                    - generic [ref=e440] [cursor=pointer]:
+                      - generic [ref=e441]:
+                        - generic [ref=e442]: Seema Kale
+                        - generic [ref=e443]:
+                          - generic [ref=e444]:
+                            - strong [ref=e445]: "Role:"
+                            - text: Laravel Developer
+                          - generic [ref=e446]:
+                            - strong [ref=e447]: "Exp:"
+                            - text: 4 years
+                          - generic [ref=e448]:
+                            - strong [ref=e449]: "Status:"
+                            - text: Evaluation Scheduled
+                      - generic [ref=e451]:
+                        - generic "Initial Video Analysis" [ref=e452]:
+                          - generic [ref=e453]: 
+                        - generic "Bot Interview Analysis" [ref=e454]:
+                          - generic [ref=e455]: 
+                        - generic "Schedule Interview" [ref=e456]:
+                          - generic [ref=e457]: 
+                        - generic "Send Email" [ref=e458]:
+                          - generic "Send Email" [ref=e459]: 
+                        - generic "Candidate Communication Details" [ref=e460]:
+                          - generic [ref=e461]: 
+                        - generic "Change Status" [ref=e462]:
+                          - generic [ref=e463]: 
+                        - generic "View Career Arc" [ref=e464]:
+                          - generic [ref=e465]: 
+                - generic [ref=e467]: SureCafe Review (0)
+                - generic [ref=e469]: Interview Stage (0)
+                - generic [ref=e471]: ShortListed (0)
+                - generic [ref=e473]: Onboarded (0)
+                - generic [ref=e475]: Rejected (0)
+        - generic [ref=e476]:
+          - button " Board" [ref=e477] [cursor=pointer]:
+            - generic [ref=e478]: 
+            - text: Board
+          - button " List" [ref=e479] [cursor=pointer]:
+            - generic [ref=e480]: 
+            - text: List
+        - button "" [ref=e481] [cursor=pointer]:
+          - generic [ref=e482]: 
+        - text: 
+        - dialog [active] [ref=e483]:
+          - generic [ref=e484]:
+            - generic [ref=e485]:
+              - heading "Schedule Interview" [level=5] [ref=e486]
+              - button "Close" [ref=e487] [cursor=pointer]
+            - generic [ref=e488]:
+              - generic [ref=e489]:
+                - generic [ref=e491]:
+                  - generic [ref=e492]: "Candidate Name: Vishal Kelly"
+                  - generic [ref=e493]: "Job Title: Laravel Developer"
+                - generic [ref=e494]:
+                  - generic [ref=e495]:
+                    - generic [ref=e496]: Candidate Email
+                    - textbox [ref=e497]: vvaidya@yopmail.com
+                  - generic [ref=e498]:
+                    - generic [ref=e499]: Interviewer Email
+                    - textbox [ref=e500]
+                  - generic [ref=e501]:
+                    - generic [ref=e502]: Attendees Email
+                    - textbox "Enter email addresses, separated by commas" [ref=e503]
+                  - generic [ref=e504]:
+                    - generic [ref=e505]: Interview Date
+                    - textbox [ref=e506]: 2026-02-17
+                  - generic [ref=e507]:
+                    - generic [ref=e508]: Start Time
+                    - generic [ref=e509]:
+                      - combobox [ref=e510]:
+                        - option "00"
+                        - option "01"
+                        - option "02"
+                        - option "03"
+                        - option "04"
+                        - option "05"
+                        - option "06"
+                        - option "07"
+                        - option "08"
+                        - option "09"
+                        - option "10"
+                        - option "11"
+                        - option "12"
+                        - option "13"
+                        - option "14" [selected]
+                        - option "15"
+                        - option "16"
+                        - option "17"
+                        - option "18"
+                        - option "19"
+                        - option "20"
+                        - option "21"
+                        - option "22"
+                        - option "23"
+                      - combobox [ref=e511]:
+                        - option "00" [selected]
+                        - option "01"
+                        - option "02"
+                        - option "03"
+                        - option "04"
+                        - option "05"
+                        - option "06"
+                        - option "07"
+                        - option "08"
+                        - option "09"
+                        - option "10"
+                        - option "11"
+                        - option "12"
+                        - option "13"
+                        - option "14"
+                        - option "15"
+                        - option "16"
+                        - option "17"
+                        - option "18"
+                        - option "19"
+                        - option "20"
+                        - option "21"
+                        - option "22"
+                        - option "23"
+                        - option "24"
+                        - option "25"
+                        - option "26"
+                        - option "27"
+                        - option "28"
+                        - option "29"
+                        - option "30"
+                        - option "31"
+                        - option "32"
+                        - option "33"
+                        - option "34"
+                        - option "35"
+                        - option "36"
+                        - option "37"
+                        - option "38"
+                        - option "39"
+                        - option "40"
+                        - option "41"
+                        - option "42"
+                        - option "43"
+                        - option "44"
+                        - option "45"
+                        - option "46"
+                        - option "47"
+                        - option "48"
+                        - option "49"
+                        - option "50"
+                        - option "51"
+                        - option "52"
+                        - option "53"
+                        - option "54"
+                        - option "55"
+                        - option "56"
+                        - option "57"
+                        - option "58"
+                        - option "59"
+                  - generic [ref=e512]:
+                    - generic [ref=e513]: End Time
+                    - generic [ref=e514]:
+                      - combobox [ref=e515]:
+                        - option "00"
+                        - option "01"
+                        - option "02"
+                        - option "03"
+                        - option "04"
+                        - option "05"
+                        - option "06"
+                        - option "07"
+                        - option "08"
+                        - option "09"
+                        - option "10"
+                        - option "11" [selected]
+                        - option "12"
+                        - option "13"
+                        - option "14"
+                        - option "15"
+                        - option "16"
+                        - option "17"
+                        - option "18"
+                        - option "19"
+                        - option "20"
+                        - option "21"
+                        - option "22"
+                        - option "23"
+                      - combobox [ref=e516]:
+                        - option "00" [selected]
+                        - option "01"
+                        - option "02"
+                        - option "03"
+                        - option "04"
+                        - option "05"
+                        - option "06"
+                        - option "07"
+                        - option "08"
+                        - option "09"
+                        - option "10"
+                        - option "11"
+                        - option "12"
+                        - option "13"
+                        - option "14"
+                        - option "15"
+                        - option "16"
+                        - option "17"
+                        - option "18"
+                        - option "19"
+                        - option "20"
+                        - option "21"
+                        - option "22"
+                        - option "23"
+                        - option "24"
+                        - option "25"
+                        - option "26"
+                        - option "27"
+                        - option "28"
+                        - option "29"
+                        - option "30"
+                        - option "31"
+                        - option "32"
+                        - option "33"
+                        - option "34"
+                        - option "35"
+                        - option "36"
+                        - option "37"
+                        - option "38"
+                        - option "39"
+                        - option "40"
+                        - option "41"
+                        - option "42"
+                        - option "43"
+                        - option "44"
+                        - option "45"
+                        - option "46"
+                        - option "47"
+                        - option "48"
+                        - option "49"
+                        - option "50"
+                        - option "51"
+                        - option "52"
+                        - option "53"
+                        - option "54"
+                        - option "55"
+                        - option "56"
+                        - option "57"
+                        - option "58"
+                        - option "59"
+                  - generic [ref=e517]:
+                    - generic [ref=e518]: Time Zone
+                    - combobox [ref=e519]:
+                      - option "Asia/Kolkata" [selected]
+                      - option "Africa/Abidjan"
+                      - option "Africa/Accra"
+                      - option "Africa/Addis_Ababa"
+                      - option "Africa/Algiers"
+                      - option "Africa/Asmera"
+                      - option "Africa/Bamako"
+                      - option "Africa/Bangui"
+                      - option "Africa/Banjul"
+                      - option "Africa/Bissau"
+                      - option "Africa/Blantyre"
+                      - option "Africa/Brazzaville"
+                      - option "Africa/Bujumbura"
+                      - option "Africa/Cairo"
+                      - option "Africa/Casablanca"
+                      - option "Africa/Ceuta"
+                      - option "Africa/Conakry"
+                      - option "Africa/Dakar"
+                      - option "Africa/Dar_es_Salaam"
+                      - option "Africa/Djibouti"
+                      - option "Africa/Douala"
+                      - option "Africa/El_Aaiun"
+                      - option "Africa/Freetown"
+                      - option "Africa/Gaborone"
+                      - option "Africa/Harare"
+                      - option "Africa/Johannesburg"
+                      - option "Africa/Juba"
+                      - option "Africa/Kampala"
+                      - option "Africa/Khartoum"
+                      - option "Africa/Kigali"
+                      - option "Africa/Kinshasa"
+                      - option "Africa/Lagos"
+                      - option "Africa/Libreville"
+                      - option "Africa/Lome"
+                      - option "Africa/Luanda"
+                      - option "Africa/Lubumbashi"
+                      - option "Africa/Lusaka"
+                      - option "Africa/Malabo"
+                      - option "Africa/Maputo"
+                      - option "Africa/Maseru"
+                      - option "Africa/Mbabane"
+                      - option "Africa/Mogadishu"
+                      - option "Africa/Monrovia"
+                      - option "Africa/Nairobi"
+                      - option "Africa/Ndjamena"
+                      - option "Africa/Niamey"
+                      - option "Africa/Nouakchott"
+                      - option "Africa/Ouagadougou"
+                      - option "Africa/Porto-Novo"
+                      - option "Africa/Sao_Tome"
+                      - option "Africa/Tripoli"
+                      - option "Africa/Tunis"
+                      - option "Africa/Windhoek"
+                      - option "America/Adak"
+                      - option "America/Anchorage"
+                      - option "America/Anguilla"
+                      - option "America/Antigua"
+                      - option "America/Araguaina"
+                      - option "America/Argentina/La_Rioja"
+                      - option "America/Argentina/Rio_Gallegos"
+                      - option "America/Argentina/Salta"
+                      - option "America/Argentina/San_Juan"
+                      - option "America/Argentina/San_Luis"
+                      - option "America/Argentina/Tucuman"
+                      - option "America/Argentina/Ushuaia"
+                      - option "America/Aruba"
+                      - option "America/Asuncion"
+                      - option "America/Bahia"
+                      - option "America/Bahia_Banderas"
+                      - option "America/Barbados"
+                      - option "America/Belem"
+                      - option "America/Belize"
+                      - option "America/Blanc-Sablon"
+                      - option "America/Boa_Vista"
+                      - option "America/Bogota"
+                      - option "America/Boise"
+                      - option "America/Buenos_Aires"
+                      - option "America/Cambridge_Bay"
+                      - option "America/Campo_Grande"
+                      - option "America/Cancun"
+                      - option "America/Caracas"
+                      - option "America/Catamarca"
+                      - option "America/Cayenne"
+                      - option "America/Cayman"
+                      - option "America/Chicago"
+                      - option "America/Chihuahua"
+                      - option "America/Ciudad_Juarez"
+                      - option "America/Coral_Harbour"
+                      - option "America/Cordoba"
+                      - option "America/Costa_Rica"
+                      - option "America/Coyhaique"
+                      - option "America/Creston"
+                      - option "America/Cuiaba"
+                      - option "America/Curacao"
+                      - option "America/Danmarkshavn"
+                      - option "America/Dawson"
+                      - option "America/Dawson_Creek"
+                      - option "America/Denver"
+                      - option "America/Detroit"
+                      - option "America/Dominica"
+                      - option "America/Edmonton"
+                      - option "America/Eirunepe"
+                      - option "America/El_Salvador"
+                      - option "America/Fort_Nelson"
+                      - option "America/Fortaleza"
+                      - option "America/Glace_Bay"
+                      - option "America/Godthab"
+                      - option "America/Goose_Bay"
+                      - option "America/Grand_Turk"
+                      - option "America/Grenada"
+                      - option "America/Guadeloupe"
+                      - option "America/Guatemala"
+                      - option "America/Guayaquil"
+                      - option "America/Guyana"
+                      - option "America/Halifax"
+                      - option "America/Havana"
+                      - option "America/Hermosillo"
+                      - option "America/Indiana/Knox"
+                      - option "America/Indiana/Marengo"
+                      - option "America/Indiana/Petersburg"
+                      - option "America/Indiana/Tell_City"
+                      - option "America/Indiana/Vevay"
+                      - option "America/Indiana/Vincennes"
+                      - option "America/Indiana/Winamac"
+                      - option "America/Indianapolis"
+                      - option "America/Inuvik"
+                      - option "America/Iqaluit"
+                      - option "America/Jamaica"
+                      - option "America/Jujuy"
+                      - option "America/Juneau"
+                      - option "America/Kentucky/Monticello"
+                      - option "America/Kralendijk"
+                      - option "America/La_Paz"
+                      - option "America/Lima"
+                      - option "America/Los_Angeles"
+                      - option "America/Louisville"
+                      - option "America/Lower_Princes"
+                      - option "America/Maceio"
+                      - option "America/Managua"
+                      - option "America/Manaus"
+                      - option "America/Marigot"
+                      - option "America/Martinique"
+                      - option "America/Matamoros"
+                      - option "America/Mazatlan"
+                      - option "America/Mendoza"
+                      - option "America/Menominee"
+                      - option "America/Merida"
+                      - option "America/Metlakatla"
+                      - option "America/Mexico_City"
+                      - option "America/Miquelon"
+                      - option "America/Moncton"
+                      - option "America/Monterrey"
+                      - option "America/Montevideo"
+                      - option "America/Montserrat"
+                      - option "America/Nassau"
+                      - option "America/New_York"
+                      - option "America/Nome"
+                      - option "America/Noronha"
+                      - option "America/North_Dakota/Beulah"
+                      - option "America/North_Dakota/Center"
+                      - option "America/North_Dakota/New_Salem"
+                      - option "America/Ojinaga"
+                      - option "America/Panama"
+                      - option "America/Paramaribo"
+                      - option "America/Phoenix"
+                      - option "America/Port-au-Prince"
+                      - option "America/Port_of_Spain"
+                      - option "America/Porto_Velho"
+                      - option "America/Puerto_Rico"
+                      - option "America/Punta_Arenas"
+                      - option "America/Rankin_Inlet"
+                      - option "America/Recife"
+                      - option "America/Regina"
+                      - option "America/Resolute"
+                      - option "America/Rio_Branco"
+                      - option "America/Santarem"
+                      - option "America/Santiago"
+                      - option "America/Santo_Domingo"
+                      - option "America/Sao_Paulo"
+                      - option "America/Scoresbysund"
+                      - option "America/Sitka"
+                      - option "America/St_Barthelemy"
+                      - option "America/St_Johns"
+                      - option "America/St_Kitts"
+                      - option "America/St_Lucia"
+                      - option "America/St_Thomas"
+                      - option "America/St_Vincent"
+                      - option "America/Swift_Current"
+                      - option "America/Tegucigalpa"
+                      - option "America/Thule"
+                      - option "America/Tijuana"
+                      - option "America/Toronto"
+                      - option "America/Tortola"
+                      - option "America/Vancouver"
+                      - option "America/Whitehorse"
+                      - option "America/Winnipeg"
+                      - option "America/Yakutat"
+                      - option "Antarctica/Casey"
+                      - option "Antarctica/Davis"
+                      - option "Antarctica/DumontDUrville"
+                      - option "Antarctica/Macquarie"
+                      - option "Antarctica/Mawson"
+                      - option "Antarctica/McMurdo"
+                      - option "Antarctica/Palmer"
+                      - option "Antarctica/Rothera"
+                      - option "Antarctica/Syowa"
+                      - option "Antarctica/Troll"
+                      - option "Antarctica/Vostok"
+                      - option "Arctic/Longyearbyen"
+                      - option "Asia/Aden"
+                      - option "Asia/Almaty"
+                      - option "Asia/Amman"
+                      - option "Asia/Anadyr"
+                      - option "Asia/Aqtau"
+                      - option "Asia/Aqtobe"
+                      - option "Asia/Ashgabat"
+                      - option "Asia/Atyrau"
+                      - option "Asia/Baghdad"
+                      - option "Asia/Bahrain"
+                      - option "Asia/Baku"
+                      - option "Asia/Bangkok"
+                      - option "Asia/Barnaul"
+                      - option "Asia/Beirut"
+                      - option "Asia/Bishkek"
+                      - option "Asia/Brunei"
+                      - option "Asia/Calcutta"
+                      - option "Asia/Chita"
+                      - option "Asia/Colombo"
+                      - option "Asia/Damascus"
+                      - option "Asia/Dhaka"
+                      - option "Asia/Dili"
+                      - option "Asia/Dubai"
+                      - option "Asia/Dushanbe"
+                      - option "Asia/Famagusta"
+                      - option "Asia/Gaza"
+                      - option "Asia/Hebron"
+                      - option "Asia/Hong_Kong"
+                      - option "Asia/Hovd"
+                      - option "Asia/Irkutsk"
+                      - option "Asia/Jakarta"
+                      - option "Asia/Jayapura"
+                      - option "Asia/Jerusalem"
+                      - option "Asia/Kabul"
+                      - option "Asia/Kamchatka"
+                      - option "Asia/Karachi"
+                      - option "Asia/Katmandu"
+                      - option "Asia/Khandyga"
+                      - option "Asia/Krasnoyarsk"
+                      - option "Asia/Kuala_Lumpur"
+                      - option "Asia/Kuching"
+                      - option "Asia/Kuwait"
+                      - option "Asia/Macau"
+                      - option "Asia/Magadan"
+                      - option "Asia/Makassar"
+                      - option "Asia/Manila"
+                      - option "Asia/Muscat"
+                      - option "Asia/Nicosia"
+                      - option "Asia/Novokuznetsk"
+                      - option "Asia/Novosibirsk"
+                      - option "Asia/Omsk"
+                      - option "Asia/Oral"
+                      - option "Asia/Phnom_Penh"
+                      - option "Asia/Pontianak"
+                      - option "Asia/Pyongyang"
+                      - option "Asia/Qatar"
+                      - option "Asia/Qostanay"
+                      - option "Asia/Qyzylorda"
+                      - option "Asia/Rangoon"
+                      - option "Asia/Riyadh"
+                      - option "Asia/Saigon"
+                      - option "Asia/Sakhalin"
+                      - option "Asia/Samarkand"
+                      - option "Asia/Seoul"
+                      - option "Asia/Shanghai"
+                      - option "Asia/Singapore"
+                      - option "Asia/Srednekolymsk"
+                      - option "Asia/Taipei"
+                      - option "Asia/Tashkent"
+                      - option "Asia/Tbilisi"
+                      - option "Asia/Tehran"
+                      - option "Asia/Thimphu"
+                      - option "Asia/Tokyo"
+                      - option "Asia/Tomsk"
+                      - option "Asia/Ulaanbaatar"
+                      - option "Asia/Urumqi"
+                      - option "Asia/Ust-Nera"
+                      - option "Asia/Vientiane"
+                      - option "Asia/Vladivostok"
+                      - option "Asia/Yakutsk"
+                      - option "Asia/Yekaterinburg"
+                      - option "Asia/Yerevan"
+                      - option "Atlantic/Azores"
+                      - option "Atlantic/Bermuda"
+                      - option "Atlantic/Canary"
+                      - option "Atlantic/Cape_Verde"
+                      - option "Atlantic/Faeroe"
+                      - option "Atlantic/Madeira"
+                      - option "Atlantic/Reykjavik"
+                      - option "Atlantic/South_Georgia"
+                      - option "Atlantic/St_Helena"
+                      - option "Atlantic/Stanley"
+                      - option "Australia/Adelaide"
+                      - option "Australia/Brisbane"
+                      - option "Australia/Broken_Hill"
+                      - option "Australia/Darwin"
+                      - option "Australia/Eucla"
+                      - option "Australia/Hobart"
+                      - option "Australia/Lindeman"
+                      - option "Australia/Lord_Howe"
+                      - option "Australia/Melbourne"
+                      - option "Australia/Perth"
+                      - option "Australia/Sydney"
+                      - option "Europe/Amsterdam"
+                      - option "Europe/Andorra"
+                      - option "Europe/Astrakhan"
+                      - option "Europe/Athens"
+                      - option "Europe/Belgrade"
+                      - option "Europe/Berlin"
+                      - option "Europe/Bratislava"
+                      - option "Europe/Brussels"
+                      - option "Europe/Bucharest"
+                      - option "Europe/Budapest"
+                      - option "Europe/Busingen"
+                      - option "Europe/Chisinau"
+                      - option "Europe/Copenhagen"
+                      - option "Europe/Dublin"
+                      - option "Europe/Gibraltar"
+                      - option "Europe/Guernsey"
+                      - option "Europe/Helsinki"
+                      - option "Europe/Isle_of_Man"
+                      - option "Europe/Istanbul"
+                      - option "Europe/Jersey"
+                      - option "Europe/Kaliningrad"
+                      - option "Europe/Kiev"
+                      - option "Europe/Kirov"
+                      - option "Europe/Lisbon"
+                      - option "Europe/Ljubljana"
+                      - option "Europe/London"
+                      - option "Europe/Luxembourg"
+                      - option "Europe/Madrid"
+                      - option "Europe/Malta"
+                      - option "Europe/Mariehamn"
+                      - option "Europe/Minsk"
+                      - option "Europe/Monaco"
+                      - option "Europe/Moscow"
+                      - option "Europe/Oslo"
+                      - option "Europe/Paris"
+                      - option "Europe/Podgorica"
+                      - option "Europe/Prague"
+                      - option "Europe/Riga"
+                      - option "Europe/Rome"
+                      - option "Europe/Samara"
+                      - option "Europe/San_Marino"
+                      - option "Europe/Sarajevo"
+                      - option "Europe/Saratov"
+                      - option "Europe/Simferopol"
+                      - option "Europe/Skopje"
+                      - option "Europe/Sofia"
+                      - option "Europe/Stockholm"
+                      - option "Europe/Tallinn"
+                      - option "Europe/Tirane"
+                      - option "Europe/Ulyanovsk"
+                      - option "Europe/Vaduz"
+                      - option "Europe/Vatican"
+                      - option "Europe/Vienna"
+                      - option "Europe/Vilnius"
+                      - option "Europe/Volgograd"
+                      - option "Europe/Warsaw"
+                      - option "Europe/Zagreb"
+                      - option "Europe/Zurich"
+                      - option "Indian/Antananarivo"
+                      - option "Indian/Chagos"
+                      - option "Indian/Christmas"
+                      - option "Indian/Cocos"
+                      - option "Indian/Comoro"
+                      - option "Indian/Kerguelen"
+                      - option "Indian/Mahe"
+                      - option "Indian/Maldives"
+                      - option "Indian/Mauritius"
+                      - option "Indian/Mayotte"
+                      - option "Indian/Reunion"
+                      - option "Pacific/Apia"
+                      - option "Pacific/Auckland"
+                      - option "Pacific/Bougainville"
+                      - option "Pacific/Chatham"
+                      - option "Pacific/Easter"
+                      - option "Pacific/Efate"
+                      - option "Pacific/Enderbury"
+                      - option "Pacific/Fakaofo"
+                      - option "Pacific/Fiji"
+                      - option "Pacific/Funafuti"
+                      - option "Pacific/Galapagos"
+                      - option "Pacific/Gambier"
+                      - option "Pacific/Guadalcanal"
+                      - option "Pacific/Guam"
+                      - option "Pacific/Honolulu"
+                      - option "Pacific/Kiritimati"
+                      - option "Pacific/Kosrae"
+                      - option "Pacific/Kwajalein"
+                      - option "Pacific/Majuro"
+                      - option "Pacific/Marquesas"
+                      - option "Pacific/Midway"
+                      - option "Pacific/Nauru"
+                      - option "Pacific/Niue"
+                      - option "Pacific/Norfolk"
+                      - option "Pacific/Noumea"
+                      - option "Pacific/Pago_Pago"
+                      - option "Pacific/Palau"
+                      - option "Pacific/Pitcairn"
+                      - option "Pacific/Ponape"
+                      - option "Pacific/Port_Moresby"
+                      - option "Pacific/Rarotonga"
+                      - option "Pacific/Saipan"
+                      - option "Pacific/Tahiti"
+                      - option "Pacific/Tarawa"
+                      - option "Pacific/Tongatapu"
+                      - option "Pacific/Truk"
+                      - option "Pacific/Wake"
+                      - option "Pacific/Wallis"
+                  - generic [ref=e520]:
+                    - generic [ref=e521]: Status
+                    - combobox [disabled] [ref=e522]:
+                      - option "Interview Scheduled" [selected]
+                      - option "Interview Re-Scheduled"
+                      - option "L1-Scheduling Required"
+                      - option "L1-Scheduled"
+                      - option "L1-Reschedule"
+                      - option "L2-Scheduling Required"
+                      - option "L2-Scheduled"
+                      - option "L2-Reschedule"
+                  - generic [ref=e523]:
+                    - generic [ref=e524]: Interview Description
+                    - textbox "Enter interview description..." [ref=e525]
+              - generic [ref=e526]:
+                - button "Cancel" [ref=e527] [cursor=pointer]
+                - button "Schedule Interview" [ref=e528] [cursor=pointer]
+        - text: 
+  - text: ✕
+```

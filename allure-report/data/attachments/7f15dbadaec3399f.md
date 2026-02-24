@@ -1,0 +1,276 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e6]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Toggle sidebar" [ref=e10] [cursor=pointer]:
+            - generic [ref=e11]: Toggle sidebar
+            - img [ref=e12]
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /
+            - img [ref=e18]
+        - menubar [ref=e20]:
+          - menuitem "Dashboard" [ref=e21] [cursor=pointer]:
+            - generic [ref=e22]: Dashboard
+        - button "Open profile menu" [ref=e23] [cursor=pointer]:
+          - img "Profile picture of Surecafe demo" [ref=e25]
+    - generic [ref=e29]:
+      - list [ref=e33]:
+        - listitem [ref=e34]:
+          - link "Dashboard" [ref=e35] [cursor=pointer]:
+            - /url: /
+            - img [ref=e38]
+            - generic "Dashboard" [ref=e40]
+        - listitem [ref=e41]:
+          - link "Candidate Pipelines" [ref=e42] [cursor=pointer]:
+            - /url: /candidate-pipelines
+            - img [ref=e45]
+            - generic "Candidate Pipelines" [ref=e47]
+        - listitem [ref=e48]:
+          - link "Candidates" [ref=e49] [cursor=pointer]:
+            - /url: /candidates
+            - img [ref=e52]
+            - generic "Candidates" [ref=e54]
+        - listitem [ref=e55]:
+          - link "Job Descriptions" [ref=e56] [cursor=pointer]:
+            - /url: /job-descriptions-list
+            - img [ref=e59]
+            - generic "Job Descriptions" [ref=e61]
+        - listitem [ref=e62]:
+          - link "JD-Candidates Matching" [ref=e63] [cursor=pointer]:
+            - /url: /jd-candidates-matching
+            - img [ref=e66]
+            - generic "JD-Candidates Matching" [ref=e68]
+        - listitem [ref=e69]:
+          - button "Settings" [ref=e70] [cursor=pointer]:
+            - img [ref=e73]
+            - generic [ref=e76]: Settings
+            - img [ref=e77]
+      - separator [ref=e79]
+    - main [ref=e80]:
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - heading "Candidate Resume Management" [level=1] [ref=e88]
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - generic [ref=e91]:
+                - generic [ref=e92]:
+                  - generic [ref=e93]: "Choose company for:"
+                  - generic [ref=e94]:
+                    - radio "Offshore (India)" [checked] [ref=e95]
+                    - text: Offshore (India)
+                  - generic [ref=e96]:
+                    - radio "Onshore (USA)" [ref=e97]
+                    - text: Onshore (USA)
+                - generic [ref=e98]:
+                  - generic [ref=e99]: "Resume Template:"
+                  - combobox [ref=e100] [cursor=pointer]:
+                    - option "Simple" [selected]
+                    - option "Modern"
+                    - option "Creative"
+                  - link "" [ref=e101] [cursor=pointer]:
+                    - /url: https://drive.google.com/file/d/1bLlRIIyn01sKzeGEERoUihlohQEO-8r8/view
+                    - generic "Show resume templates format" [ref=e103]: 
+              - heading "Upload Resumes ( Please upload .pdf or .docx files only. )" [level=3] [ref=e105]:
+                - img [ref=e106]
+                - generic [ref=e109]: Upload Resumes
+                - generic [ref=e110]: ( Please upload .pdf or .docx files only. )
+              - generic [ref=e111]:
+                - button "Choose File" [ref=e113] [cursor=pointer]
+                - generic [ref=e115]:
+                  - checkbox "Don't use address and logo" [ref=e116]
+                  - text: Don't use address and logo
+                - generic [ref=e117]:
+                  - generic [ref=e118]:
+                    - heading "Company Address" [level=3] [ref=e120]:
+                      - generic [ref=e121]: Company Address
+                    - generic [ref=e122]:
+                      - generic [ref=e123]:
+                        - radio "India Office" [ref=e124]
+                        - text: India Office
+                      - generic [ref=e125]:
+                        - radio "USA Office" [ref=e126]
+                        - text: USA Office
+                      - generic [ref=e127]:
+                        - radio "Custom Address" [ref=e128]
+                        - text: Custom Address
+                      - generic [ref=e129]:
+                        - radio "No Address" [checked] [ref=e130]
+                        - text: No Address
+                  - generic [ref=e131]:
+                    - heading "Logo Customization" [level=3] [ref=e133]:
+                      - generic [ref=e134]: Logo Customization
+                    - generic [ref=e135]:
+                      - generic [ref=e136]:
+                        - radio "Use Default TIU Logo" [checked] [ref=e137]
+                        - text: Use Default TIU Logo
+                      - generic [ref=e138]:
+                        - radio "Upload Custom Logo" [ref=e139]
+                        - text: Upload Custom Logo
+                      - generic [ref=e140]:
+                        - radio "No Logo" [ref=e141]
+                        - text: No Logo
+                - generic [ref=e143]: Click the Upload & Process Resumes button to authorize Google Drive access and proceed further...
+                - button "Upload & Process Resumes" [active] [ref=e147] [cursor=pointer]
+            - generic [ref=e148]:
+              - heading "Resumes Locations" [level=3] [ref=e150]:
+                - generic [ref=e151]: Resumes Locations
+              - generic [ref=e152]:
+                - generic [ref=e153] [cursor=pointer]:
+                  - img [ref=e155]
+                  - generic [ref=e157]:
+                    - heading "Original Resumes" [level=4] [ref=e158]
+                    - paragraph [ref=e159]: Raw uploaded files
+                  - img [ref=e161]
+                - generic [ref=e163] [cursor=pointer]:
+                  - img [ref=e165]
+                  - generic [ref=e168]:
+                    - heading "Formatted Resumes" [level=4] [ref=e169]
+                    - paragraph [ref=e170]: Processed & standardized
+                  - img [ref=e172]
+        - generic [ref=e174]:
+          - generic [ref=e176]:
+            - heading "Candidates" [level=1] [ref=e177]
+            - paragraph [ref=e178]: "Represents information about Candidates ( Total Candidates : 40 )"
+          - generic [ref=e179]:
+            - generic [ref=e180]:
+              - img [ref=e181]
+              - textbox "Search candidates..." [ref=e184]
+            - button " Reset Filters" [ref=e185] [cursor=pointer]:
+              - generic [ref=e186]: 
+              - text: Reset Filters
+            - button " Reload Data" [ref=e187] [cursor=pointer]:
+              - generic [ref=e188]: 
+              - text: Reload Data
+          - generic [ref=e189]:
+            - generic [ref=e190]:
+              - button "Key Skills▼" [ref=e192] [cursor=pointer]
+              - button "Programming Languages▼" [ref=e194] [cursor=pointer]
+              - button "Frameworks and Libraries▼" [ref=e196] [cursor=pointer]
+              - button "Methodologies▼" [ref=e198] [cursor=pointer]
+              - button "Candidate Status▼" [ref=e200] [cursor=pointer]
+            - generic [ref=e201]:
+              - generic [ref=e203] [cursor=pointer]:
+                - generic [ref=e204]: Reggies Anthony
+                - generic [ref=e205]: Active
+                - generic [ref=e206]: 6+ years
+                - generic [ref=e207]: Quality Analyst Engineer
+                - generic [ref=e208]:
+                  - button "" [ref=e209]:
+                    - generic [ref=e210]: 
+                  - button "" [ref=e211]:
+                    - generic [ref=e212]: 
+                  - generic [ref=e213]: ▼ Show
+              - generic [ref=e215] [cursor=pointer]:
+                - generic [ref=e216]: Pamela Dove
+                - generic [ref=e217]: Active
+                - generic [ref=e218]: 8 years
+                - generic [ref=e219]: "-"
+                - generic [ref=e220]:
+                  - button "" [ref=e221]:
+                    - generic [ref=e222]: 
+                  - button "" [ref=e223]:
+                    - generic [ref=e224]: 
+                  - generic [ref=e225]: ▼ Show
+              - generic [ref=e227] [cursor=pointer]:
+                - generic [ref=e228]: Shruti Zen
+                - generic [ref=e229]: Active
+                - generic [ref=e230]: 4+ years
+                - generic [ref=e231]: PHP Developer
+                - generic [ref=e232]:
+                  - button "" [ref=e233]:
+                    - generic [ref=e234]: 
+                  - button "" [ref=e235]:
+                    - generic [ref=e236]: 
+                  - generic [ref=e237]: ▼ Show
+              - generic [ref=e239] [cursor=pointer]:
+                - generic [ref=e240]: Harish
+                - generic [ref=e241]: Active
+                - generic [ref=e242]: 4+ years
+                - generic [ref=e243]: PHP Developer
+                - generic [ref=e244]:
+                  - button "" [ref=e245]:
+                    - generic [ref=e246]: 
+                  - button "" [ref=e247]:
+                    - generic [ref=e248]: 
+                  - generic [ref=e249]: ▼ Show
+              - generic [ref=e251] [cursor=pointer]:
+                - generic [ref=e252]: ALOK KUMAR SINGH
+                - generic [ref=e253]: Active
+                - generic [ref=e254]: 8.5+ years
+                - generic [ref=e255]: Senior Software Developer
+                - generic [ref=e256]:
+                  - button "" [ref=e257]:
+                    - generic [ref=e258]: 
+                  - button "" [ref=e259]:
+                    - generic [ref=e260]: 
+                  - generic [ref=e261]: ▼ Show
+              - generic [ref=e263] [cursor=pointer]:
+                - generic [ref=e264]: Giva Desuza
+                - generic [ref=e265]: Active
+                - generic [ref=e266]: 2019 – Present
+                - generic [ref=e267]: SAP Consultant
+                - generic [ref=e268]:
+                  - button "" [ref=e269]:
+                    - generic [ref=e270]: 
+                  - button "" [ref=e271]:
+                    - generic [ref=e272]: 
+                  - generic [ref=e273]: ▼ Show
+              - generic [ref=e275] [cursor=pointer]:
+                - generic [ref=e276]: Andrew Dev
+                - generic [ref=e277]: Active
+                - generic [ref=e278]: 5 years
+                - generic [ref=e279]: SAP Consultant
+                - generic [ref=e280]:
+                  - button "" [ref=e281]:
+                    - generic [ref=e282]: 
+                  - button "" [ref=e283]:
+                    - generic [ref=e284]: 
+                  - generic [ref=e285]: ▼ Show
+              - generic [ref=e287] [cursor=pointer]:
+                - generic [ref=e288]: Samy Zen
+                - generic [ref=e289]: Active
+                - generic [ref=e290]: 4+ years
+                - generic [ref=e291]: PHP Developer
+                - generic [ref=e292]:
+                  - button "" [ref=e293]:
+                    - generic [ref=e294]: 
+                  - button "" [ref=e295]:
+                    - generic [ref=e296]: 
+                  - generic [ref=e297]: ▼ Show
+              - generic [ref=e299] [cursor=pointer]:
+                - generic [ref=e300]: Harish
+                - generic [ref=e301]: Active
+                - generic [ref=e302]: 4+ years
+                - generic [ref=e303]: PHP Developer
+                - generic [ref=e304]:
+                  - button "" [ref=e305]:
+                    - generic [ref=e306]: 
+                  - button "" [ref=e307]:
+                    - generic [ref=e308]: 
+                  - generic [ref=e309]: ▼ Show
+              - generic [ref=e311] [cursor=pointer]:
+                - generic [ref=e312]: Akanksha Bhambhani
+                - generic [ref=e313]: Active
+                - generic [ref=e314]: 8 years
+                - generic [ref=e315]: Associate consultant
+                - generic [ref=e316]:
+                  - button "" [ref=e317]:
+                    - generic [ref=e318]: 
+                  - button "" [ref=e319]:
+                    - generic [ref=e320]: 
+                  - generic [ref=e321]: ▼ Show
+            - generic [ref=e322]:
+              - button "First" [disabled] [ref=e323]
+              - button "Prev" [disabled] [ref=e324]
+              - button "1" [ref=e325] [cursor=pointer]
+              - button "2" [ref=e326] [cursor=pointer]
+              - button "3" [ref=e327] [cursor=pointer]
+              - button "4" [ref=e328] [cursor=pointer]
+              - button "Next" [ref=e329] [cursor=pointer]
+              - button "Last" [ref=e330] [cursor=pointer]
+  - text: ✕
+```

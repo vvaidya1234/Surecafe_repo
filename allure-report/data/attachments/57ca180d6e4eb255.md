@@ -1,0 +1,282 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e6]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Toggle sidebar" [ref=e10] [cursor=pointer]:
+            - generic [ref=e11]: Toggle sidebar
+            - img [ref=e12]
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /
+            - img [ref=e18]
+        - menubar [ref=e20]:
+          - menuitem "Dashboard" [ref=e21] [cursor=pointer]:
+            - generic [ref=e22]: Dashboard
+        - button "Open profile menu" [ref=e23] [cursor=pointer]:
+          - img "Profile picture of Surecafe demo" [ref=e25]
+    - generic [ref=e29]:
+      - list [ref=e33]:
+        - listitem [ref=e34]:
+          - link "Dashboard" [ref=e35] [cursor=pointer]:
+            - /url: /
+            - img [ref=e38]
+            - generic "Dashboard" [ref=e40]
+        - listitem [ref=e41]:
+          - link "Candidate Pipelines" [ref=e42] [cursor=pointer]:
+            - /url: /candidate-pipelines
+            - img [ref=e45]
+            - generic "Candidate Pipelines" [ref=e47]
+        - listitem [ref=e48]:
+          - link "Candidates" [ref=e49] [cursor=pointer]:
+            - /url: /candidates
+            - img [ref=e52]
+            - generic "Candidates" [ref=e54]
+        - listitem [ref=e55]:
+          - link "Job Descriptions" [ref=e56] [cursor=pointer]:
+            - /url: /job-descriptions-list
+            - img [ref=e59]
+            - generic "Job Descriptions" [ref=e61]
+        - listitem [ref=e62]:
+          - link "JD-Candidates Matching" [ref=e63] [cursor=pointer]:
+            - /url: /jd-candidates-matching
+            - img [ref=e66]
+            - generic "JD-Candidates Matching" [ref=e68]
+        - listitem [ref=e69]:
+          - button "Settings" [ref=e70] [cursor=pointer]:
+            - img [ref=e73]
+            - generic [ref=e76]: Settings
+            - img [ref=e77]
+      - separator [ref=e79]
+    - main [ref=e80]:
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - heading "Candidate Resume Management" [level=1] [ref=e88]
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - generic [ref=e91]:
+                - generic [ref=e92]:
+                  - generic [ref=e93]: "Choose company for:"
+                  - generic [ref=e94]:
+                    - radio "Offshore (India)" [checked] [ref=e95]
+                    - text: Offshore (India)
+                  - generic [ref=e96]:
+                    - radio "Onshore (USA)" [ref=e97]
+                    - text: Onshore (USA)
+                - generic [ref=e98]:
+                  - generic [ref=e99]: "Resume Template:"
+                  - combobox [ref=e100] [cursor=pointer]:
+                    - option "Simple" [selected]
+                    - option "Modern"
+                    - option "Creative"
+                  - link "" [ref=e101] [cursor=pointer]:
+                    - /url: https://drive.google.com/file/d/1bLlRIIyn01sKzeGEERoUihlohQEO-8r8/view
+                    - generic "Show resume templates format" [ref=e103]: 
+              - heading "Upload Resumes ( Please upload .pdf or .docx files only. )" [level=3] [ref=e105]:
+                - img [ref=e106]
+                - generic [ref=e109]: Upload Resumes
+                - generic [ref=e110]: ( Please upload .pdf or .docx files only. )
+              - generic [ref=e111]:
+                - button "Choose File" [ref=e113] [cursor=pointer]
+                - generic [ref=e115]:
+                  - checkbox "Don't use address and logo" [ref=e116]
+                  - text: Don't use address and logo
+                - generic [ref=e117]:
+                  - generic [ref=e118]:
+                    - heading "Company Address" [level=3] [ref=e120]:
+                      - generic [ref=e121]: Company Address
+                    - generic [ref=e122]:
+                      - generic [ref=e123]:
+                        - radio "India Office" [checked] [ref=e124]
+                        - text: India Office
+                      - generic [ref=e125]:
+                        - radio "USA Office" [ref=e126]
+                        - text: USA Office
+                      - generic [ref=e127]:
+                        - radio "Custom Address" [ref=e128]
+                        - text: Custom Address
+                      - generic [ref=e129]:
+                        - radio "No Address" [ref=e130]
+                        - text: No Address
+                    - generic [ref=e131]: Plot no. 18/1, 2nd Floor. IT Park Gayatri Nagar, Nagpur, Maharashtra 440022
+                  - generic [ref=e132]:
+                    - heading "Logo Customization" [level=3] [ref=e134]:
+                      - generic [ref=e135]: Logo Customization
+                    - generic [ref=e136]:
+                      - generic [ref=e137]:
+                        - radio "Use Default TIU Logo" [ref=e138]
+                        - text: Use Default TIU Logo
+                      - generic [ref=e139]:
+                        - radio "Upload Custom Logo" [ref=e140]
+                        - text: Upload Custom Logo
+                      - generic [ref=e141]:
+                        - radio "No Logo" [checked] [active] [ref=e142]
+                        - text: No Logo
+                - generic [ref=e144]: ✅ Successfully uploaded & processed!
+                - generic [ref=e145]: ✅ Upload complete!
+                - button "Upload & Process Resumes" [ref=e148] [cursor=pointer]
+            - generic [ref=e150]:
+              - generic [ref=e151] [cursor=pointer]: ×
+              - heading "Status" [level=3] [ref=e152]
+              - generic [ref=e153]: ✅ Successfully processed!
+            - generic [ref=e154]:
+              - heading "Resumes Locations" [level=3] [ref=e156]:
+                - generic [ref=e157]: Resumes Locations
+              - generic [ref=e158]:
+                - generic [ref=e159] [cursor=pointer]:
+                  - img [ref=e161]
+                  - generic [ref=e163]:
+                    - heading "Original Resumes" [level=4] [ref=e164]
+                    - paragraph [ref=e165]: Raw uploaded files
+                  - img [ref=e167]
+                - generic [ref=e169] [cursor=pointer]:
+                  - img [ref=e171]
+                  - generic [ref=e174]:
+                    - heading "Formatted Resumes" [level=4] [ref=e175]
+                    - paragraph [ref=e176]: Processed & standardized
+                  - img [ref=e178]
+        - generic [ref=e180]:
+          - generic [ref=e182]:
+            - heading "Candidates" [level=1] [ref=e183]
+            - paragraph [ref=e184]: "Represents information about Candidates ( Total Candidates : 34 )"
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - img [ref=e187]
+              - textbox "Search candidates..." [ref=e190]
+            - button " Reset Filters" [ref=e191] [cursor=pointer]:
+              - generic [ref=e192]: 
+              - text: Reset Filters
+            - button " Reload Data" [ref=e193] [cursor=pointer]:
+              - generic [ref=e194]: 
+              - text: Reload Data
+          - generic [ref=e195]:
+            - generic [ref=e196]:
+              - button "Key Skills▼" [ref=e198] [cursor=pointer]
+              - button "Programming Languages▼" [ref=e200] [cursor=pointer]
+              - button "Frameworks and Libraries▼" [ref=e202] [cursor=pointer]
+              - button "Methodologies▼" [ref=e204] [cursor=pointer]
+              - button "Candidate Status▼" [ref=e206] [cursor=pointer]
+            - generic [ref=e207]:
+              - generic [ref=e209] [cursor=pointer]:
+                - generic [ref=e210]: Preety Games
+                - generic [ref=e211]: Available
+                - generic [ref=e212]: 5 years
+                - generic [ref=e213]: SAP Consultant
+                - generic [ref=e214]:
+                  - button "" [ref=e215]:
+                    - generic [ref=e216]: 
+                  - button "" [ref=e217]:
+                    - generic [ref=e218]: 
+                  - generic [ref=e219]: ▼ Show
+              - generic [ref=e221] [cursor=pointer]:
+                - generic [ref=e222]: Samy Zen
+                - generic [ref=e223]: Available
+                - generic [ref=e224]: 4+ years
+                - generic [ref=e225]: PHP Developer
+                - generic [ref=e226]:
+                  - button "" [ref=e227]:
+                    - generic [ref=e228]: 
+                  - button "" [ref=e229]:
+                    - generic [ref=e230]: 
+                  - generic [ref=e231]: ▼ Show
+              - generic [ref=e233] [cursor=pointer]:
+                - generic [ref=e234]: Pankaj Kumar
+                - generic [ref=e235]: Available
+                - generic [ref=e236]: 10 years
+                - generic [ref=e237]: Lead Salesforce Developer
+                - generic [ref=e238]:
+                  - button "" [ref=e239]:
+                    - generic [ref=e240]: 
+                  - button "" [ref=e241]:
+                    - generic [ref=e242]: 
+                  - generic [ref=e243]: ▼ Show
+              - generic [ref=e245] [cursor=pointer]:
+                - generic [ref=e246]: Ravindra Reddy Edururi
+                - generic [ref=e247]: Active
+                - generic [ref=e248]: 7+ years
+                - generic [ref=e249]: Senior Associate
+                - generic [ref=e250]:
+                  - button "" [ref=e251]:
+                    - generic [ref=e252]: 
+                  - button "" [ref=e253]:
+                    - generic [ref=e254]: 
+                  - generic [ref=e255]: ▼ Show
+              - generic [ref=e257] [cursor=pointer]:
+                - generic [ref=e258]: Sonia
+                - generic [ref=e259]: Active
+                - generic [ref=e260]: 5 years
+                - generic [ref=e261]: SAP Consultant
+                - generic [ref=e262]:
+                  - button "" [ref=e263]:
+                    - generic [ref=e264]: 
+                  - button "" [ref=e265]:
+                    - generic [ref=e266]: 
+                  - generic [ref=e267]: ▼ Show
+              - generic [ref=e269] [cursor=pointer]:
+                - generic [ref=e270]: Priya Sharma
+                - generic [ref=e271]: Active
+                - generic [ref=e272]: 5 years
+                - generic [ref=e273]: Senior Software Engineer
+                - generic [ref=e274]:
+                  - button "" [ref=e275]:
+                    - generic [ref=e276]: 
+                  - button "" [ref=e277]:
+                    - generic [ref=e278]: 
+                  - generic [ref=e279]: ▼ Show
+              - generic [ref=e281] [cursor=pointer]:
+                - generic [ref=e282]: Sagar Singh
+                - generic [ref=e283]: Active
+                - generic [ref=e284]: 2 years 11 months
+                - generic [ref=e285]: SAP BTP Consultant
+                - generic [ref=e286]:
+                  - button "" [ref=e287]:
+                    - generic [ref=e288]: 
+                  - button "" [ref=e289]:
+                    - generic [ref=e290]: 
+                  - generic [ref=e291]: ▼ Show
+              - generic [ref=e293] [cursor=pointer]:
+                - generic [ref=e294]: Sandeep Kadam
+                - generic [ref=e295]: Active
+                - generic [ref=e296]: 8 years
+                - generic [ref=e297]: "-"
+                - generic [ref=e298]:
+                  - button "" [ref=e299]:
+                    - generic [ref=e300]: 
+                  - button "" [ref=e301]:
+                    - generic [ref=e302]: 
+                  - generic [ref=e303]: ▼ Show
+              - generic [ref=e305] [cursor=pointer]:
+                - generic [ref=e306]: Andrew Dev
+                - generic [ref=e307]: Active
+                - generic [ref=e308]: 5 years
+                - generic [ref=e309]: SAP Consultant
+                - generic [ref=e310]:
+                  - button "" [ref=e311]:
+                    - generic [ref=e312]: 
+                  - button "" [ref=e313]:
+                    - generic [ref=e314]: 
+                  - generic [ref=e315]: ▼ Show
+              - generic [ref=e317] [cursor=pointer]:
+                - generic [ref=e318]: Sandeep Kadam
+                - generic [ref=e319]: Active
+                - generic [ref=e320]: 8 years
+                - generic [ref=e321]: PHP Developer
+                - generic [ref=e322]:
+                  - button "" [ref=e323]:
+                    - generic [ref=e324]: 
+                  - button "" [ref=e325]:
+                    - generic [ref=e326]: 
+                  - generic [ref=e327]: ▼ Show
+            - generic [ref=e328]:
+              - button "First" [disabled] [ref=e329]
+              - button "Prev" [disabled] [ref=e330]
+              - button "1" [ref=e331] [cursor=pointer]
+              - button "2" [ref=e332] [cursor=pointer]
+              - button "3" [ref=e333] [cursor=pointer]
+              - button "4" [ref=e334] [cursor=pointer]
+              - button "Next" [ref=e335] [cursor=pointer]
+              - button "Last" [ref=e336] [cursor=pointer]
+  - text: ✕
+```

@@ -1,0 +1,42 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e6]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Toggle sidebar" [ref=e10] [cursor=pointer]:
+            - generic [ref=e11]: Toggle sidebar
+            - img [ref=e12]
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /
+            - img [ref=e18]
+        - menubar [ref=e20]:
+          - menuitem "Dashboard" [ref=e21] [cursor=pointer]:
+            - generic [ref=e22]: Dashboard
+    - generic [ref=e26]:
+      - list [ref=e30]:
+        - listitem [ref=e31]:
+          - button "Settings" [ref=e32] [cursor=pointer]:
+            - img [ref=e35]
+            - generic [ref=e38]: Settings
+            - img [ref=e39]
+      - separator [ref=e41]
+    - main [ref=e42]:
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - heading "Welcome back" [level=2] [ref=e55]
+          - paragraph [ref=e56]: Log in to continue
+        - button "Continue with Google" [ref=e58] [cursor=pointer]:
+          - img [ref=e60]
+          - generic [ref=e65]: Continue with Google
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - generic [ref=e72]: Email *
+            - textbox "Email *" [ref=e74]:
+              - /placeholder: Enter your email
+          - button "Continue" [ref=e76] [cursor=pointer]:
+            - generic [ref=e77]: Continue
+  - text: ✕
+```

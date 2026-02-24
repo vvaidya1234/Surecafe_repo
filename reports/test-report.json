@@ -1,0 +1,321 @@
+{
+  "timestamp": "2026-01-19T13:38:14.446Z",
+  "totalTests": 52,
+  "passed": 0,
+  "failed": 0,
+  "skipped": 0,
+  "tests": [
+    {
+      "title": "authenticate",
+      "status": "expected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "CV Upload with Authenticated Session",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "CV Upload with Authenticated Session",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "CV Upload with Authenticated Session",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "has title",
+      "status": "expected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "get started link",
+      "status": "expected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "has title",
+      "status": "expected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "get started link",
+      "status": "expected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "has title",
+      "status": "expected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "get started link",
+      "status": "expected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "Candidate Pipeline Status flow",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "Candidate Pipeline Status flow",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "Candidate Pipeline Status flow",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "sureflowCvToJdCanMatch",
+      "status": "expected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "sureflowCvToJdCanMatch",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "sureflowCvToJdCanMatch",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "sureJdCanMatchSelCan",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "sureJdCanMatchSelCan",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "sureJdCanMatchSelCan",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "expected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "expected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "expected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "expected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "expected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "expected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "Upload and Process Resumes",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "Upload and Process Resumes",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "Upload and Process Resumes",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "expected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "expected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "test",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "Upload and Process Resumes",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "Upload and Process Resumes",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "Upload and Process Resumes",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "Upload and Process Resumes with Default Logo (fixed file)",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "Upload and Process Resumes with Default Logo (fixed file)",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "Upload and Process Resumes with Default Logo (fixed file)",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "Upload and Process Resumes with Default Logo",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "Upload and Process Resumes with Default Logo",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "title": "Upload and Process Resumes with Default Logo",
+      "status": "unexpected",
+      "duration": 0,
+      "error": null
+    }
+  ]
+}

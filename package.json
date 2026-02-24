@@ -1,0 +1,23 @@
+{
+  "name": "surecafeplaywright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:allure": "playwright test && npm run report:allure",
+    "test:report": "playwright test && npm run report:allure && node generate-report.js",
+    "report": "node generate-report.js",
+    "report:allure": "allure generate allure-results -o allure-report",
+    "report:open": "allure open allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1",
+    "allure": "^3.0.1",
+    "allure-playwright": "^3.4.5"
+  }
+}

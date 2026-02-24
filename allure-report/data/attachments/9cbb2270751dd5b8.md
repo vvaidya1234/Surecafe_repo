@@ -1,0 +1,757 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e6]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Toggle sidebar" [ref=e10] [cursor=pointer]:
+            - generic [ref=e11]: Toggle sidebar
+            - img [ref=e12]
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /
+            - img [ref=e18]
+        - menubar [ref=e20]:
+          - menuitem "Dashboard" [ref=e21] [cursor=pointer]:
+            - generic [ref=e22]: Dashboard
+        - button "Open profile menu" [ref=e23] [cursor=pointer]:
+          - img "Profile picture of Surecafe demo" [ref=e25]
+    - generic [ref=e29]:
+      - list [ref=e33]:
+        - listitem [ref=e34]:
+          - link "Dashboard" [ref=e35] [cursor=pointer]:
+            - /url: /
+            - img [ref=e38]
+            - generic "Dashboard" [ref=e40]
+        - listitem [ref=e41]:
+          - link "Candidate Pipelines" [ref=e42] [cursor=pointer]:
+            - /url: /candidate-pipelines
+            - img [ref=e45]
+            - generic "Candidate Pipelines" [ref=e47]
+        - listitem [ref=e48]:
+          - link "Candidates" [ref=e49] [cursor=pointer]:
+            - /url: /candidates
+            - img [ref=e52]
+            - generic "Candidates" [ref=e54]
+        - listitem [ref=e55]:
+          - link "Job Descriptions" [ref=e56] [cursor=pointer]:
+            - /url: /job-descriptions-list
+            - img [ref=e59]
+            - generic "Job Descriptions" [ref=e61]
+        - listitem [ref=e62]:
+          - link "JD-Candidates Matching" [ref=e63] [cursor=pointer]:
+            - /url: /jd-candidates-matching
+            - img [ref=e66]
+            - generic "JD-Candidates Matching" [ref=e68]
+        - listitem [ref=e69]:
+          - button "Settings" [ref=e70] [cursor=pointer]:
+            - img [ref=e73]
+            - generic [ref=e76]: Settings
+            - img [ref=e77]
+      - separator [ref=e79]
+    - main [ref=e80]:
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - heading "JD Management System & Job-Based Candidate Filtering" [level=1] [ref=e88]
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - generic [ref=e91]:
+                - heading "Upload JDs" [level=3] [ref=e92]:
+                  - img [ref=e93]
+                  - generic [ref=e96]: Upload JDs
+                - generic [ref=e97]:
+                  - generic [ref=e98]: "Select Client:"
+                  - combobox [ref=e99]:
+                    - option "-- Select Client --" [selected]
+                    - option "VV Vaidya Soni-Advanced Tech"
+                    - option "VV Vaidya-Advanced Tech"
+                    - option "Vrushali Vaidya-GrowNixt Technologies Pvt. Ltd."
+                    - option "Srinivas Dev-Infosys"
+                    - option "Vrushali Soni-Persistent Systems"
+                    - option "Rajkumar Banothe-Tata Consulting Services"
+                    - option "Rajkumar Banothe-TIU Consulting Gondia"
+                - generic [ref=e100]: + Add Client
+              - generic [ref=e101]:
+                - generic [ref=e102]:
+                  - generic [ref=e103]: Upload Job Descriptions and manage your jobs collection
+                  - generic [ref=e104]: ( Please upload .txt or .pdf files only. )
+                - generic [ref=e105]:
+                  - button "Choose File" [ref=e106]
+                  - button "Upload & Process JDs" [ref=e107] [cursor=pointer]
+                - generic [ref=e109]: ✅ Ready to upload files!
+            - generic [ref=e111]:
+              - heading "Job Description Locations" [level=3] [ref=e113]:
+                - generic [ref=e114]: Job Description Locations
+              - generic [ref=e116] [cursor=pointer]:
+                - img [ref=e118]
+                - generic [ref=e120]:
+                  - heading "Job Descriptions" [level=4] [ref=e121]
+                  - paragraph [ref=e122]: See Job Descriptions
+                - img [ref=e124]
+          - generic [ref=e126]:
+            - 'heading "Job List (Total Jobs: 12)" [level=3] [ref=e128]':
+              - img [ref=e129]
+              - generic [ref=e131]: "Job List (Total Jobs: 12)"
+            - generic [ref=e132]:
+              - generic [ref=e133]:
+                - generic [ref=e134]:
+                  - img [ref=e135]
+                  - textbox "Search jobs by title, location..." [ref=e138]
+                - button " Reset Filters" [ref=e139] [cursor=pointer]:
+                  - generic [ref=e140]: 
+                  - text: Reset Filters
+                - button " Reload Data" [ref=e141] [cursor=pointer]:
+                  - generic [ref=e142]: 
+                  - text: Reload Data
+              - generic [ref=e143]:
+                - combobox [ref=e144]:
+                  - option "All Locations" [selected]
+                  - option "Canada"
+                  - option "Canada/Germany"
+                  - option "India"
+                  - option "India, Remote, Germany"
+                  - option "Indore/India"
+                  - option "Not Specified"
+                  - option "Remote"
+                - combobox [ref=e145]:
+                  - option "All Employment Types" [selected]
+                  - option "Full-time"
+                  - option "Not Specified"
+                - combobox [ref=e146]:
+                  - option "All Experience Levels" [selected]
+                  - option "Mid"
+                  - option "Not Specified"
+                  - option "Senior"
+              - generic [ref=e147]:
+                - generic [ref=e148]:
+                  - generic [ref=e150]:
+                    - generic [ref=e151]:
+                      - generic "Show Job Details" [ref=e152] [cursor=pointer]: SAP Consultant
+                      - generic [ref=e153]:
+                        - text: 
+                        - button "Show Matched Candidates" [ref=e154] [cursor=pointer]
+                    - generic [ref=e155]:
+                      - generic [ref=e156]: Canada
+                      - generic [ref=e157]: Full-time
+                      - generic [ref=e158]: Mid
+                      - generic [ref=e159]: 3-5 years experience
+                      - generic [ref=e160]: "Posted on: 01/19/2026, 6:41 PM"
+                  - generic [ref=e162]:
+                    - generic [ref=e163]:
+                      - generic "Show Job Details" [ref=e164] [cursor=pointer]: SAP Consultant
+                      - generic [ref=e165]:
+                        - text: 
+                        - button "Show Matched Candidates" [ref=e166] [cursor=pointer]
+                    - generic [ref=e167]:
+                      - generic [ref=e168]: Canada
+                      - generic [ref=e169]: Full-time
+                      - generic [ref=e170]: Mid
+                      - generic [ref=e171]: 2+ years experience
+                      - generic [ref=e172]: "Posted on: 01/19/2026, 6:35 PM"
+                  - generic [ref=e174]:
+                    - generic [ref=e175]:
+                      - generic "Show Job Details" [ref=e176] [cursor=pointer]: SAP Consultant
+                      - generic [ref=e177]:
+                        - text: 
+                        - button "Show Matched Candidates" [ref=e178] [cursor=pointer]
+                    - generic [ref=e179]:
+                      - generic [ref=e180]: Canada
+                      - generic [ref=e181]: Full-time
+                      - generic [ref=e182]: Mid
+                      - generic [ref=e183]: Not Specified experience
+                      - generic [ref=e184]: "Posted on: 01/19/2026, 5:57 PM"
+                  - generic [ref=e186]:
+                    - generic [ref=e187]:
+                      - generic "Show Job Details" [ref=e188] [cursor=pointer]: Full Stack Lead
+                      - generic [ref=e189]:
+                        - text: 
+                        - button "Show Matched Candidates" [ref=e190] [cursor=pointer]
+                    - generic [ref=e191]:
+                      - generic [ref=e192]: India, Remote, Germany
+                      - generic [ref=e193]: Full-time
+                      - generic [ref=e194]: Senior
+                      - generic [ref=e195]: 2+ years experience
+                      - generic [ref=e196]: "Posted on: 12/29/2025, 2:04 PM"
+                  - generic [ref=e198]:
+                    - generic [ref=e199]:
+                      - generic "Show Job Details" [ref=e200] [cursor=pointer]: Laravel Developer
+                      - generic [ref=e201]:
+                        - text: 
+                        - button "Show Matched Candidates" [ref=e202] [cursor=pointer]
+                    - generic [ref=e203]:
+                      - generic [ref=e204]: Remote
+                      - generic [ref=e205]: Full-time
+                      - generic [ref=e206]: Senior
+                      - generic [ref=e207]: 2–5 years experience
+                      - generic [ref=e208]: "Posted on: 12/22/2025, 6:44 PM"
+                  - generic [ref=e210]:
+                    - generic [ref=e211]:
+                      - generic "Show Job Details" [ref=e212] [cursor=pointer]: Android Engineer
+                      - generic [ref=e213]:
+                        - text: 
+                        - button "Show Matched Candidates" [ref=e214] [cursor=pointer]
+                    - generic [ref=e215]:
+                      - generic [ref=e216]: Remote
+                      - generic [ref=e217]: Full-time
+                      - generic [ref=e218]: Senior
+                      - generic [ref=e219]: 5 years experience
+                      - generic [ref=e220]: "Posted on: 12/24/2025, 1:41 PM"
+                  - generic [ref=e222]:
+                    - generic [ref=e223]:
+                      - generic "Show Job Details" [ref=e224] [cursor=pointer]: Guitar Artist
+                      - generic [ref=e225]:
+                        - text: 
+                        - button "Show Matched Candidates" [ref=e226] [cursor=pointer]
+                    - generic [ref=e227]:
+                      - generic [ref=e228]: Not Specified
+                      - generic [ref=e229]: Not Specified
+                      - generic [ref=e230]: Not Specified
+                      - generic [ref=e231]: Not Specified experience
+                      - generic [ref=e232]: "Posted on: 12/23/2025, 12:05 PM"
+                  - generic [ref=e234]:
+                    - generic [ref=e235]:
+                      - generic "Show Job Details" [ref=e236] [cursor=pointer]: Jr. Full Stack Developer India
+                      - generic [ref=e237]:
+                        - text: 
+                        - button "Show Matched Candidates" [ref=e238] [cursor=pointer]
+                    - generic [ref=e239]:
+                      - generic [ref=e240]: Indore/India
+                      - generic [ref=e241]: Full-time
+                      - generic [ref=e242]: Senior
+                      - generic [ref=e243]: Minimum of 6 years experience
+                      - generic [ref=e244]: "Posted on: 12/18/2025, 8:53 PM"
+                  - generic [ref=e246]:
+                    - generic [ref=e247]:
+                      - generic "Show Job Details" [ref=e248] [cursor=pointer]: CodeIgniter Developer
+                      - generic [ref=e249]:
+                        - text: 
+                        - button "Show Matched Candidates" [ref=e250] [cursor=pointer]
+                    - generic [ref=e251]:
+                      - generic [ref=e252]: Remote
+                      - generic [ref=e253]: Not Specified
+                      - generic [ref=e254]: Mid
+                      - generic [ref=e255]: 2–5 Years experience
+                      - generic [ref=e256]: "Posted on: 12/18/2025, 8:15 PM"
+                  - generic [ref=e258]:
+                    - generic [ref=e259]:
+                      - generic "Show Job Details" [ref=e260] [cursor=pointer]: tvOS Engineer
+                      - generic [ref=e261]:
+                        - text: 
+                        - button "Show Matched Candidates" [ref=e262] [cursor=pointer]
+                    - generic [ref=e263]:
+                      - generic [ref=e264]: Remote
+                      - generic [ref=e265]: Full-time
+                      - generic [ref=e266]: Senior
+                      - generic [ref=e267]: 5+ years experience
+                      - generic [ref=e268]: "Posted on: 12/18/2025, 7:47 PM"
+                - generic [ref=e269]:
+                  - button "First" [disabled] [ref=e270]
+                  - button "Prev" [disabled] [ref=e271]
+                  - button "1" [ref=e272] [cursor=pointer]
+                  - button "2" [ref=e273] [cursor=pointer]
+                  - button "Next" [ref=e274] [cursor=pointer]
+                  - button "Last" [ref=e275] [cursor=pointer]
+          - generic [ref=e276]:
+            - heading "Candidate Matching Actions" [level=3] [ref=e278]:
+              - img [ref=e279]
+              - generic [ref=e283]: Candidate Matching Actions
+            - generic [ref=e284]:
+              - generic [ref=e285]:
+                - generic [ref=e286]:
+                  - heading "Filter Candidates No filters applied" [level=4] [ref=e287]:
+                    - img [ref=e288]
+                    - generic [ref=e290]: Filter Candidates
+                    - generic [ref=e292]: No filters applied
+                  - button "Reset All" [ref=e294] [cursor=pointer]:
+                    - img [ref=e295]
+                    - text: Reset All
+                - generic [ref=e298]:
+                  - generic [ref=e299]: "Quick Filters:"
+                  - generic [ref=e300]:
+                    - button "🏆 Overall Score 80+" [ref=e301] [cursor=pointer]
+                    - button "⭐ Overall Score 60-80" [ref=e302] [cursor=pointer]
+                    - button "👍 Overall Score 40-60" [ref=e303] [cursor=pointer]
+                    - button "📊 Overall Score 30-40" [ref=e304] [cursor=pointer]
+                    - button "⚠️ Overall Score <30" [ref=e305] [cursor=pointer]
+                - generic [ref=e307]:
+                  - heading "Performance Filters" [level=5] [ref=e308]:
+                    - img [ref=e309]
+                    - generic [ref=e311]: Performance Filters
+                  - generic [ref=e312]:
+                    - generic [ref=e313]:
+                      - generic [ref=e314]: Overall Score
+                      - combobox [ref=e315]:
+                        - option "All Scores" [selected]
+                        - option "80+ (Excellent)"
+                        - option "60-80 (Very Good)"
+                        - option "40-60 (Good)"
+                        - option "30-40 (Fair)"
+                        - option "Below 30 (Poor)"
+                    - generic [ref=e316]:
+                      - generic [ref=e317]: Skills Match %
+                      - combobox [ref=e318]:
+                        - option "All Skill Matches" [selected]
+                        - option "80%+ (Excellent)"
+                        - option "60-80% (Very Good)"
+                        - option "40-60% (Good)"
+                        - option "30-40% (Fair)"
+                        - option "Below 30% (Poor)"
+                    - generic [ref=e319]:
+                      - generic [ref=e320]: Experience Match %
+                      - combobox [ref=e321]:
+                        - option "All Experience Matches" [selected]
+                        - option "80%+ (Excellent)"
+                        - option "60-80% (Very Good)"
+                        - option "40-60% (Good)"
+                        - option "30-40% (Fair)"
+                        - option "Below 30% (Poor)"
+                    - generic [ref=e322]:
+                      - generic [ref=e323]: Domain Match %
+                      - combobox [ref=e324]:
+                        - option "All Domain Matches" [selected]
+                        - option "80%+ (Excellent)"
+                        - option "60-80% (Very Good)"
+                        - option "40-60% (Good)"
+                        - option "30-40% (Fair)"
+                        - option "Below 30% (Poor)"
+              - generic [ref=e326]:
+                - generic [ref=e327] [cursor=pointer]:
+                  - generic [ref=e328]:
+                    - generic "Show Job Details" [ref=e329]: Laravel Developer
+                    - generic [ref=e330]:
+                      - generic "recCjSvttQXQkrcaP" [ref=e331]:
+                        - generic [ref=e332]: 
+                      - text: •
+                      - generic [ref=e333]: 15 candidates (Out of 15 candidates)
+                      - text: •
+                      - generic [ref=e334]: Remote
+                      - text: •
+                      - generic [ref=e335]: Senior
+                  - generic [ref=e336]:
+                    - button "Hide Weak Profiles" [ref=e337]
+                    - button "Hide Candidates" [ref=e338]
+                - generic [ref=e339]:
+                  - generic [ref=e340]:
+                    - generic [ref=e341]:
+                      - generic [ref=e342]: Sandeep Kadam
+                      - generic [ref=e343]: • Senior PHP Developer
+                    - generic [ref=e344]:
+                      - generic [ref=e345]:
+                        - generic [ref=e346]: Overall Score
+                        - generic [ref=e347]: "98.0"
+                      - generic [ref=e348]:
+                        - generic [ref=e349]: Skills
+                        - generic [ref=e350]: 100.0%
+                      - generic [ref=e351]:
+                        - generic [ref=e352]: Experience
+                        - generic [ref=e353]: 100.0%
+                      - generic [ref=e354]:
+                        - generic [ref=e355]: Domain
+                        - generic [ref=e356]: 90.0%
+                    - generic [ref=e357]:
+                      - generic [ref=e358]:
+                        - generic [ref=e359]:
+                          - strong [ref=e360]: "Key Strengths:"
+                          - text: Candidate possesses 8 years of experience, indicating deep expertise in PHP development. - Direct project-based experience with Laravel (versions 7 and 8), perfectly matching the job's preferred technology. - Broad experience with multiple PHP MVC frameworks (Laravel, CodeIgniter, CakePHP) demonstrates versatility and a strong understanding of the architecture. - All core and preferred requirements of the job description are clearly met and supported by evidence in the resume.
+                        - generic [ref=e361]:
+                          - strong [ref=e362]: "Key Risks & Gaps:"
+                          - text: No significant risks or gaps were identified based on the provided texts; the candidate is an excellent match for all stated requirements.
+                      - button "Show More " [ref=e363] [cursor=pointer]:
+                        - generic [ref=e364]: Show More
+                        - generic [ref=e365]: 
+                    - generic [ref=e366]:
+                      - button " View Profile" [ref=e367] [cursor=pointer]:
+                        - generic [ref=e368]: 
+                        - text: View Profile
+                      - button " Select Candidate" [ref=e369] [cursor=pointer]:
+                        - generic [ref=e370]: 
+                        - text: Select Candidate
+                      - button " Send Email" [ref=e371] [cursor=pointer]:
+                        - generic [ref=e372]: 
+                        - text: Send Email
+                      - link " View Resume" [ref=e373] [cursor=pointer]:
+                        - /url: https://drive.google.com/file/d/1EAbbmZc9ugxvGLxhKPKWLVQGlWfH6n_q/view?usp=drivesdk
+                        - generic [ref=e374]: 
+                        - text: View Resume
+                  - generic [ref=e375]:
+                    - generic [ref=e376]:
+                      - generic [ref=e377]: Harish
+                      - generic [ref=e378]: • PHP Developer
+                    - generic [ref=e379]:
+                      - generic [ref=e380]:
+                        - generic [ref=e381]: Overall Score
+                        - generic [ref=e382]: "98.0"
+                      - generic [ref=e383]:
+                        - generic [ref=e384]: Skills
+                        - generic [ref=e385]: 100.0%
+                      - generic [ref=e386]:
+                        - generic [ref=e387]: Experience
+                        - generic [ref=e388]: 95.0%
+                      - generic [ref=e389]:
+                        - generic [ref=e390]: Domain
+                        - generic [ref=e391]: 80.0%
+                    - generic [ref=e392]:
+                      - generic [ref=e393]:
+                        - generic [ref=e394]:
+                          - strong [ref=e395]: "Key Strengths:"
+                          - text: Deep, specific experience with Laravel, the employer's preferred framework. - Over 4 years of dedicated experience as a PHP Developer aligns perfectly with the role's core function. - Resume provides concrete, quantifiable evidence of matching responsibilities, such as API integration and performance optimization.
+                        - generic [ref=e396]:
+                          - strong [ref=e397]: "Key Risks & Gaps:"
+                          - text: No significant risks or gaps were identified from the provided documents; the candidate is an exceptionally strong fit for the stated requirements.
+                      - button "Show More " [ref=e398] [cursor=pointer]:
+                        - generic [ref=e399]: Show More
+                        - generic [ref=e400]: 
+                    - generic [ref=e401]:
+                      - button " View Profile" [ref=e402] [cursor=pointer]:
+                        - generic [ref=e403]: 
+                        - text: View Profile
+                      - button "✔ Selected" [disabled] [ref=e404]
+                      - button " Send Email" [ref=e405] [cursor=pointer]:
+                        - generic [ref=e406]: 
+                        - text: Send Email
+                      - link " View Resume" [ref=e407] [cursor=pointer]:
+                        - /url: https://drive.google.com/file/d/1cEL_l1pZSflFBwLqSwbDxvDXEE7NcpSU/view?usp=drivesdk
+                        - generic [ref=e408]: 
+                        - text: View Resume
+                  - generic [ref=e409]:
+                    - generic [ref=e410]:
+                      - generic [ref=e411]: Sandeep Kadam
+                      - generic [ref=e412]: • PHP Developer
+                    - generic [ref=e413]:
+                      - generic [ref=e414]:
+                        - generic [ref=e415]: Overall Score
+                        - generic [ref=e416]: "98.0"
+                      - generic [ref=e417]:
+                        - generic [ref=e418]: Skills
+                        - generic [ref=e419]: 100.0%
+                      - generic [ref=e420]:
+                        - generic [ref=e421]: Experience
+                        - generic [ref=e422]: 100.0%
+                      - generic [ref=e423]:
+                        - generic [ref=e424]: Domain
+                        - generic [ref=e425]: 90.0%
+                    - generic [ref=e426]:
+                      - generic [ref=e428]:
+                        - strong [ref=e429]: "Key Strengths:"
+                        - text: Candidate has 8 years of dedicated PHP development experience, far exceeding an entry-level or junior requirement. - Possesses direct, hands-on project experience with Laravel, the company's preferred framework. - Demonstrates expertise in multiple MVC frameworks (Laravel, CodeIgniter, CakePHP), showing versatility. - Proven experience integrating various third-party APIs, which is a key responsibility mentioned in the JD.
+                      - button "Show More " [ref=e430] [cursor=pointer]:
+                        - generic [ref=e431]: Show More
+                        - generic [ref=e432]: 
+                    - generic [ref=e433]:
+                      - button " View Profile" [ref=e434] [cursor=pointer]:
+                        - generic [ref=e435]: 
+                        - text: View Profile
+                      - button " Select Candidate" [ref=e436] [cursor=pointer]:
+                        - generic [ref=e437]: 
+                        - text: Select Candidate
+                      - button " Send Email" [ref=e438] [cursor=pointer]:
+                        - generic [ref=e439]: 
+                        - text: Send Email
+                      - link " View Resume" [ref=e440] [cursor=pointer]:
+                        - /url: https://drive.google.com/file/d/1jKy2dUicGqe5APq5KpPKdS-1c3JO9Q93/view?usp=drivesdk
+                        - generic [ref=e441]: 
+                        - text: View Resume
+                  - generic [ref=e442]:
+                    - generic [ref=e443]:
+                      - generic [ref=e444]: Seema Kale
+                      - generic [ref=e445]: • Laravel Developer
+                    - generic [ref=e446]:
+                      - generic [ref=e447]:
+                        - generic [ref=e448]: Overall Score
+                        - generic [ref=e449]: "97.0"
+                      - generic [ref=e450]:
+                        - generic [ref=e451]: Skills
+                        - generic [ref=e452]: 100.0%
+                      - generic [ref=e453]:
+                        - generic [ref=e454]: Experience
+                        - generic [ref=e455]: 90.0%
+                      - generic [ref=e456]:
+                        - generic [ref=e457]: Domain
+                        - generic [ref=e458]: 90.0%
+                    - generic [ref=e459]:
+                      - generic [ref=e460]:
+                        - generic [ref=e461]:
+                          - strong [ref=e462]: "Key Strengths:"
+                          - text: Candidate's current role as a 'Laravel Developer' is an exact match for the job title. - Possesses deep experience with Laravel, the preferred framework, in a professional setting. - All core technical requirements (PHP, MySQL, HTML/CSS/JS, MVC) are clearly demonstrated and listed. - Resume shows direct experience with responsibilities like API integration and database optimization mentioned in the JD.
+                        - generic [ref=e463]:
+                          - strong [ref=e464]: "Key Risks & Gaps:"
+                          - text: Soft skills like 'communication' and 'problem-solving', mentioned as requirements in the JD, are not evidenced in the resume.
+                      - button "Show More " [ref=e465] [cursor=pointer]:
+                        - generic [ref=e466]: Show More
+                        - generic [ref=e467]: 
+                    - generic [ref=e468]:
+                      - button " View Profile" [ref=e469] [cursor=pointer]:
+                        - generic [ref=e470]: 
+                        - text: View Profile
+                      - button "✔ Selected" [disabled] [ref=e471]
+                      - button " Send Email" [ref=e472] [cursor=pointer]:
+                        - generic [ref=e473]: 
+                        - text: Send Email
+                      - link " View Resume" [ref=e474] [cursor=pointer]:
+                        - /url: https://drive.google.com/file/d/1uPdIswJK5EFJoaBxSoUiY7ygfMCLcKnT/view?usp=drivesdk
+                        - generic [ref=e475]: 
+                        - text: View Resume
+                  - generic [ref=e476]:
+                    - generic [ref=e477]:
+                      - generic [ref=e478]: Vishal Kelly
+                      - generic [ref=e479]: • PHP Developer (Consulting/Contracting Projects)
+                    - generic [ref=e480]:
+                      - generic [ref=e481]:
+                        - generic [ref=e482]: Overall Score
+                        - generic [ref=e483]: "96.0"
+                      - generic [ref=e484]:
+                        - generic [ref=e485]: Skills
+                        - generic [ref=e486]: 100.0%
+                      - generic [ref=e487]:
+                        - generic [ref=e488]: Experience
+                        - generic [ref=e489]: 100.0%
+                      - generic [ref=e490]:
+                        - generic [ref=e491]: Domain
+                        - generic [ref=e492]: 90.0%
+                    - generic [ref=e493]:
+                      - generic [ref=e494]:
+                        - generic [ref=e495]:
+                          - strong [ref=e496]: "Key Strengths:"
+                          - text: Possesses 8 years of dedicated PHP development experience, ensuring deep expertise. - Has direct, recent project experience with Laravel 7 and 8, the company's preferred framework. - Demonstrates versatility with experience in multiple MVC frameworks (Laravel, Codeigniter, CakePHP). - Proven experience integrating third-party APIs and payment gateways, a key responsibility mentioned in the JD.
+                        - generic [ref=e497]:
+                          - strong [ref=e498]: "Key Risks & Gaps:"
+                          - text: While 'problem-solving' is mentioned, 'communication skills' are a stated requirement that is not directly evidenced in the resume.
+                      - button "Show More " [ref=e499] [cursor=pointer]:
+                        - generic [ref=e500]: Show More
+                        - generic [ref=e501]: 
+                    - generic [ref=e502]:
+                      - button " View Profile" [ref=e503] [cursor=pointer]:
+                        - generic [ref=e504]: 
+                        - text: View Profile
+                      - button " Select Candidate" [ref=e505] [cursor=pointer]:
+                        - generic [ref=e506]: 
+                        - text: Select Candidate
+                      - button " Send Email" [ref=e507] [cursor=pointer]:
+                        - generic [ref=e508]: 
+                        - text: Send Email
+                      - link " View Resume" [ref=e509] [cursor=pointer]:
+                        - /url: https://drive.google.com/file/d/1YNk7_cnvhfMY48zeGja8yKcR7FhL_jOc/view?usp=drivesdk
+                        - generic [ref=e510]: 
+                        - text: View Resume
+                  - generic [ref=e511]:
+                    - generic [ref=e512]:
+                      - generic [ref=e513]: Daina Zen
+                      - generic [ref=e514]: • PHP Developer
+                    - generic [ref=e515]:
+                      - generic [ref=e516]:
+                        - generic [ref=e517]: Overall Score
+                        - generic [ref=e518]: "96.0"
+                      - generic [ref=e519]:
+                        - generic [ref=e520]: Skills
+                        - generic [ref=e521]: 100.0%
+                      - generic [ref=e522]:
+                        - generic [ref=e523]: Experience
+                        - generic [ref=e524]: 90.0%
+                      - generic [ref=e525]:
+                        - generic [ref=e526]: Domain
+                        - generic [ref=e527]: 90.0%
+                    - generic [ref=e528]:
+                      - generic [ref=e529]:
+                        - generic [ref=e530]:
+                          - strong [ref=e531]: "Key Strengths:"
+                          - text: Candidate possesses deep, demonstrated experience with Laravel, which is the preferred technology for this role. - All mandatory technical skills listed in the job description are clearly present and backed by work experience. - Over 4 years of relevant experience in PHP development aligns perfectly with the responsibilities outlined.
+                        - generic [ref=e532]:
+                          - strong [ref=e533]: "Key Risks & Gaps:"
+                          - text: No significant risks or gaps were identified based on the comparison of the resume and job description.
+                      - button "Show More " [ref=e534] [cursor=pointer]:
+                        - generic [ref=e535]: Show More
+                        - generic [ref=e536]: 
+                    - generic [ref=e537]:
+                      - button " View Profile" [ref=e538] [cursor=pointer]:
+                        - generic [ref=e539]: 
+                        - text: View Profile
+                      - button "✔ Selected" [disabled] [ref=e540]
+                      - button " Send Email" [ref=e541] [cursor=pointer]:
+                        - generic [ref=e542]: 
+                        - text: Send Email
+                      - link " View Resume" [ref=e543] [cursor=pointer]:
+                        - /url: https://drive.google.com/file/d/1Gv7seGTEaFxpVsegLBph6_KwcIC-qQZc/view?usp=drivesdk
+                        - generic [ref=e544]: 
+                        - text: View Resume
+                  - generic [ref=e545]:
+                    - generic [ref=e546]:
+                      - generic [ref=e547]: Samantha
+                      - generic [ref=e548]: • Software Developer
+                    - generic [ref=e549]:
+                      - generic [ref=e550]:
+                        - generic [ref=e551]: Overall Score
+                        - generic [ref=e552]: "96.0"
+                      - generic [ref=e553]:
+                        - generic [ref=e554]: Skills
+                        - generic [ref=e555]: 100.0%
+                      - generic [ref=e556]:
+                        - generic [ref=e557]: Experience
+                        - generic [ref=e558]: 100.0%
+                      - generic [ref=e559]:
+                        - generic [ref=e560]: Domain
+                        - generic [ref=e561]: 90.0%
+                    - generic [ref=e562]:
+                      - generic [ref=e563]:
+                        - generic [ref=e564]:
+                          - strong [ref=e565]: "Key Strengths:"
+                          - text: Over 8 years of dedicated experience in PHP development, ensuring deep expertise. - Direct project experience with Laravel 7 and 8, making them an ideal fit for the 'Laravel preferred' requirement. - Broad experience across multiple MVC frameworks (Laravel, Codeigniter, CakePHP) demonstrates strong foundational knowledge and adaptability. - Proven experience with third-party API integration (Zoho, Salesforce, Payment Gateways), a key responsibility of the role.
+                        - generic [ref=e566]:
+                          - strong [ref=e567]: "Key Risks & Gaps:"
+                          - text: While the candidate has recent Laravel experience, much of their background is in older technologies like Core PHP and CakePHP, which may require a brief ramp-up on the latest Laravel ecosystem conventions. - The JD mentions writing 'secure code', but the resume lacks explicit keywords or experience related to security best practices (e.g., OWASP, security audits).
+                      - button "Show More " [ref=e568] [cursor=pointer]:
+                        - generic [ref=e569]: Show More
+                        - generic [ref=e570]: 
+                    - generic [ref=e571]:
+                      - button " View Profile" [ref=e572] [cursor=pointer]:
+                        - generic [ref=e573]: 
+                        - text: View Profile
+                      - button " Select Candidate" [ref=e574] [cursor=pointer]:
+                        - generic [ref=e575]: 
+                        - text: Select Candidate
+                      - button " Send Email" [ref=e576] [cursor=pointer]:
+                        - generic [ref=e577]: 
+                        - text: Send Email
+                      - link " View Resume" [ref=e578] [cursor=pointer]:
+                        - /url: https://drive.google.com/file/d/1OgRae1JKrYDCkmwgB3-7CIGrNKKJ5KUg/view?usp=drivesdk
+                        - generic [ref=e579]: 
+                        - text: View Resume
+                  - generic [ref=e580]:
+                    - generic [ref=e581]:
+                      - generic [ref=e582]: Sandeep Kadam
+                      - generic [ref=e583]: • PHP Developer
+                    - generic [ref=e584]:
+                      - generic [ref=e585]:
+                        - generic [ref=e586]: Overall Score
+                        - generic [ref=e587]: "96.0"
+                      - generic [ref=e588]:
+                        - generic [ref=e589]: Skills
+                        - generic [ref=e590]: 98.0%
+                      - generic [ref=e591]:
+                        - generic [ref=e592]: Experience
+                        - generic [ref=e593]: 100.0%
+                      - generic [ref=e594]:
+                        - generic [ref=e595]: Domain
+                        - generic [ref=e596]: 85.0%
+                    - generic [ref=e597]:
+                      - generic [ref=e598]:
+                        - generic [ref=e599]:
+                          - strong [ref=e600]: "Key Strengths:"
+                          - text: Extensive 8 years of experience as a dedicated PHP developer. - Specific, recent project experience using Laravel 7 and 8, directly matching the job title. - Proven experience with multiple MVC frameworks (Laravel, Codeigniter, CakePHP), demonstrating a deep understanding of the required architecture.
+                        - generic [ref=e601]:
+                          - strong [ref=e602]: "Key Risks & Gaps:"
+                          - text: Communication skills, mentioned as a requirement in the JD, cannot be assessed from the resume.
+                      - button "Show More " [ref=e603] [cursor=pointer]:
+                        - generic [ref=e604]: Show More
+                        - generic [ref=e605]: 
+                    - generic [ref=e606]:
+                      - button " View Profile" [ref=e607] [cursor=pointer]:
+                        - generic [ref=e608]: 
+                        - text: View Profile
+                      - button " Select Candidate" [ref=e609] [cursor=pointer]:
+                        - generic [ref=e610]: 
+                        - text: Select Candidate
+                      - button " Send Email" [ref=e611] [cursor=pointer]:
+                        - generic [ref=e612]: 
+                        - text: Send Email
+                      - link " View Resume" [ref=e613] [cursor=pointer]:
+                        - /url: https://drive.google.com/file/d/1rK6IqbuS3kTYZWASRFhW4kt6mfmjiuWk/view?usp=drivesdk
+                        - generic [ref=e614]: 
+                        - text: View Resume
+                  - generic [ref=e615]:
+                    - generic [ref=e616]:
+                      - generic [ref=e617]: Sandeep Kadam
+                      - generic [ref=e618]: • PHP Developer
+                    - generic [ref=e619]:
+                      - generic [ref=e620]:
+                        - generic [ref=e621]: Overall Score
+                        - generic [ref=e622]: "96.0"
+                      - generic [ref=e623]:
+                        - generic [ref=e624]: Skills
+                        - generic [ref=e625]: 100.0%
+                      - generic [ref=e626]:
+                        - generic [ref=e627]: Experience
+                        - generic [ref=e628]: 100.0%
+                      - generic [ref=e629]:
+                        - generic [ref=e630]: Domain
+                        - generic [ref=e631]: 80.0%
+                    - generic [ref=e632]:
+                      - generic [ref=e633]:
+                        - generic [ref=e634]:
+                          - strong [ref=e635]: "Key Strengths:"
+                          - text: Over 8 years of focused experience as a PHP Developer, ensuring deep expertise. - Specific, hands-on project experience with the preferred framework, Laravel (versions 7 & 8). - Proven ability to integrate third-party APIs, payment gateways, and SMS gateways, aligning perfectly with JD responsibilities. - Broad experience with multiple MVC frameworks (CakePHP, CodeIgniter, Laravel) demonstrates adaptability.
+                        - generic [ref=e636]:
+                          - strong [ref=e637]: "Key Risks & Gaps:"
+                          - text: No significant risks or gaps were identified based on the comparison of the resume against the provided job description.
+                      - button "Show More " [ref=e638] [cursor=pointer]:
+                        - generic [ref=e639]: Show More
+                        - generic [ref=e640]: 
+                    - generic [ref=e641]:
+                      - button " View Profile" [ref=e642] [cursor=pointer]:
+                        - generic [ref=e643]: 
+                        - text: View Profile
+                      - button " Select Candidate" [ref=e644] [cursor=pointer]:
+                        - generic [ref=e645]: 
+                        - text: Select Candidate
+                      - button " Send Email" [ref=e646] [cursor=pointer]:
+                        - generic [ref=e647]: 
+                        - text: Send Email
+                      - link " View Resume" [ref=e648] [cursor=pointer]:
+                        - /url: https://drive.google.com/file/d/13_F3yGtYKLW5vLhvbw_qMdkiysONJcuD/view?usp=drivesdk
+                        - generic [ref=e649]: 
+                        - text: View Resume
+                  - generic [ref=e650]:
+                    - generic [ref=e651]:
+                      - generic [ref=e652]: Rahul Sharma
+                      - generic [ref=e653]: • CodeIgniter Developer
+                    - generic [ref=e654]:
+                      - generic [ref=e655]:
+                        - generic [ref=e656]: Overall Score
+                        - generic [ref=e657]: "82.0"
+                      - generic [ref=e658]:
+                        - generic [ref=e659]: Skills
+                        - generic [ref=e660]: 90.0%
+                      - generic [ref=e661]:
+                        - generic [ref=e662]: Experience
+                        - generic [ref=e663]: 100.0%
+                      - generic [ref=e664]:
+                        - generic [ref=e665]: Domain
+                        - generic [ref=e666]: 100.0%
+                    - generic [ref=e667]:
+                      - generic [ref=e668]:
+                        - generic [ref=e669]:
+                          - strong [ref=e670]: "Key Strengths:"
+                          - text: Possesses all mandatory technical skills including strong PHP, database management (MySQL), and front-end basics. - Has 4 years of hands-on experience with an MVC framework (CodeIgniter), making the transition to Laravel feasible. - Demonstrates direct experience with key responsibilities like API integration and performance optimization.
+                        - generic [ref=e671]:
+                          - strong [ref=e672]: "Key Risks & Gaps:"
+                          - text: The primary risk is the complete lack of specified experience with Laravel, the company's preferred framework, which will require a ramp-up period.
+                      - button "Show More " [ref=e673] [cursor=pointer]:
+                        - generic [ref=e674]: Show More
+                        - generic [ref=e675]: 
+                    - generic [ref=e676]:
+                      - button " View Profile" [ref=e677] [cursor=pointer]:
+                        - generic [ref=e678]: 
+                        - text: View Profile
+                      - button " Select Candidate" [ref=e679] [cursor=pointer]:
+                        - generic [ref=e680]: 
+                        - text: Select Candidate
+                      - button " Send Email" [ref=e681] [cursor=pointer]:
+                        - generic [ref=e682]: 
+                        - text: Send Email
+                      - link " View Resume" [ref=e683] [cursor=pointer]:
+                        - /url: https://drive.google.com/file/d/1iIhZ2iHZPjZy0u7e5YN8OyLYc2XPL1aU/view?usp=drivesdk
+                        - generic [ref=e684]: 
+                        - text: View Resume
+                - generic [ref=e685]:
+                  - button "First" [disabled] [ref=e686]
+                  - button "Prev" [disabled] [ref=e687]
+                  - button "1" [ref=e688] [cursor=pointer]
+                  - button "2" [ref=e689] [cursor=pointer]
+                  - button "Next" [ref=e690] [cursor=pointer]
+                  - button "Last" [ref=e691] [cursor=pointer]
+        - generic [ref=e693]:
+          - generic [ref=e694] [cursor=pointer]: ×
+          - heading "Status" [level=3] [ref=e695]
+          - generic [ref=e696]: ✅ Email sent successfully!
+  - text: ✕
+```

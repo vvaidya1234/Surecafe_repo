@@ -1,0 +1,628 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e6]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Toggle sidebar" [ref=e10] [cursor=pointer]:
+            - generic [ref=e11]: Toggle sidebar
+            - img [ref=e12]
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /
+            - img [ref=e18]
+        - menubar [ref=e20]:
+          - menuitem "Dashboard" [ref=e21] [cursor=pointer]:
+            - generic [ref=e22]: Dashboard
+        - button "Open profile menu" [ref=e23] [cursor=pointer]:
+          - img "Profile picture of Surecafe demo" [ref=e25]
+    - generic [ref=e29]:
+      - list [ref=e33]:
+        - listitem [ref=e34]:
+          - link "Dashboard" [ref=e35] [cursor=pointer]:
+            - /url: /
+            - img [ref=e38]
+            - generic "Dashboard" [ref=e40]
+        - listitem [ref=e41]:
+          - link "Candidate Pipelines" [ref=e42] [cursor=pointer]:
+            - /url: /candidate-pipelines
+            - img [ref=e45]
+            - generic "Candidate Pipelines" [ref=e47]
+        - listitem [ref=e48]:
+          - link "Candidates" [ref=e49] [cursor=pointer]:
+            - /url: /candidates
+            - img [ref=e52]
+            - generic "Candidates" [ref=e54]
+        - listitem [ref=e55]:
+          - link "Job Descriptions" [ref=e56] [cursor=pointer]:
+            - /url: /job-descriptions-list
+            - img [ref=e59]
+            - generic "Job Descriptions" [ref=e61]
+        - listitem [ref=e62]:
+          - link "JD-Candidates Matching" [ref=e63] [cursor=pointer]:
+            - /url: /jd-candidates-matching
+            - img [ref=e66]
+            - generic "JD-Candidates Matching" [ref=e68]
+        - listitem [ref=e69]:
+          - button "Settings" [ref=e70] [cursor=pointer]:
+            - img [ref=e73]
+            - generic [ref=e76]: Settings
+            - img [ref=e77]
+      - separator [ref=e79]
+    - main [ref=e80]:
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - heading "Candidate Pipelines" [level=1] [ref=e89]
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - img [ref=e92]
+              - textbox "Search candidates, job titles..." [ref=e95]
+            - button " Reset Filters" [ref=e96] [cursor=pointer]:
+              - generic [ref=e97]: 
+              - text: Reset Filters
+            - button " Reload Data" [ref=e98] [cursor=pointer]:
+              - generic [ref=e99]: 
+              - text: Reload Data
+            - generic [ref=e100]:
+              - button " Board" [ref=e101] [cursor=pointer]:
+                - generic [ref=e102]: 
+                - text: Board
+              - button " List" [ref=e103] [cursor=pointer]:
+                - generic [ref=e104]: 
+                - text: List
+          - generic [ref=e105]:
+            - button "All (19)" [ref=e106] [cursor=pointer]
+            - button "Leads (1)" [ref=e107] [cursor=pointer]
+            - button "Screening Process (8)" [ref=e108] [cursor=pointer]
+            - button "SureCafe Evaluation (2)" [ref=e109] [cursor=pointer]
+            - button "SureCafe Review (5)" [ref=e110] [cursor=pointer]
+            - button "Interview Stage (1)" [ref=e111] [cursor=pointer]
+            - button "ShortListed (0)" [ref=e112] [cursor=pointer]
+            - button "Onboarded (1)" [ref=e113] [cursor=pointer]
+            - button "Rejected (1)" [ref=e114] [cursor=pointer]
+          - generic [ref=e116]:
+            - text:                                                                                            
+            - generic [ref=e117]:
+              - generic [ref=e118]:
+                - generic [ref=e120]:
+                  - heading " CodeIgniter Developer" [level=5] [ref=e121]
+                  - generic [ref=e122]: 6 candidates
+                  - button "↗️ Share Details" [ref=e123] [cursor=pointer]
+                - generic [ref=e124]:
+                  - generic [ref=e126]: Leads (0)
+                  - generic [ref=e127]:
+                    - generic [ref=e128]: Screening Process (2)
+                    - generic [ref=e129]:
+                      - generic [ref=e130] [cursor=pointer]:
+                        - generic [ref=e131]:
+                          - generic [ref=e132]: Samantha
+                          - generic [ref=e133]:
+                            - generic [ref=e134]:
+                              - strong [ref=e135]: "Role:"
+                              - text: Software Developer
+                            - generic [ref=e136]:
+                              - strong [ref=e137]: "Exp:"
+                              - text: 8 years
+                            - generic [ref=e138]:
+                              - strong [ref=e139]: "Status:"
+                              - text: Evaluation Requested
+                        - generic [ref=e141]:
+                          - generic "Send Email" [ref=e142]:
+                            - generic "Send Email" [ref=e143]: 
+                          - generic "Candidate Communication Details" [ref=e144]:
+                            - generic [ref=e145]: 
+                          - generic "Change Status" [ref=e146]:
+                            - generic [ref=e147]: 
+                          - generic "View Career Arc" [ref=e148]:
+                            - generic [ref=e149]: 
+                      - generic [ref=e150] [cursor=pointer]:
+                        - generic [ref=e151]:
+                          - generic [ref=e152]: Rahul Sharma
+                          - generic [ref=e153]:
+                            - generic [ref=e154]:
+                              - strong [ref=e155]: "Role:"
+                              - text: CodeIgniter Developer
+                            - generic [ref=e156]:
+                              - strong [ref=e157]: "Exp:"
+                              - text: 4 years
+                            - generic [ref=e158]:
+                              - strong [ref=e159]: "Status:"
+                              - text: Evaluation Requested
+                        - generic [ref=e161]:
+                          - generic "Initial Video Analysis" [ref=e162]:
+                            - generic [ref=e163]: 
+                          - generic "Send Email" [ref=e164]:
+                            - generic "Send Email" [ref=e165]: 
+                          - generic "Candidate Communication Details" [ref=e166]:
+                            - generic [ref=e167]: 
+                          - generic "Change Status" [ref=e168]:
+                            - generic [ref=e169]: 
+                          - generic "View Career Arc" [ref=e170]:
+                            - generic [ref=e171]: 
+                  - generic [ref=e172]:
+                    - generic [ref=e173]: SureCafe Evaluation (1)
+                    - generic [ref=e175] [cursor=pointer]:
+                      - generic [ref=e176]:
+                        - generic [ref=e177]: Sandeep Kadam
+                        - generic [ref=e178]:
+                          - generic [ref=e179]:
+                            - strong [ref=e180]: "Role:"
+                            - text: PHP Developer
+                          - generic [ref=e181]:
+                            - strong [ref=e182]: "Exp:"
+                            - text: 8 years
+                          - generic [ref=e183]:
+                            - strong [ref=e184]: "Status:"
+                            - text: Evaluation Scheduled
+                      - generic [ref=e186]:
+                        - generic "Schedule Interview" [ref=e187]:
+                          - generic [ref=e188]: 
+                        - generic "Send Email" [ref=e189]:
+                          - generic "Send Email" [ref=e190]: 
+                        - generic "Candidate Communication Details" [ref=e191]:
+                          - generic [ref=e192]: 
+                        - generic "Change Status" [ref=e193]:
+                          - generic [ref=e194]: 
+                        - generic "View Career Arc" [ref=e195]:
+                          - generic [ref=e196]: 
+                  - generic [ref=e197]:
+                    - generic [ref=e198]: SureCafe Review (1)
+                    - generic [ref=e200] [cursor=pointer]:
+                      - generic [ref=e201]:
+                        - generic [ref=e202]: Vishal Kelly
+                        - generic [ref=e203]:
+                          - generic [ref=e204]:
+                            - strong [ref=e205]: "Role:"
+                            - text: PHP Developer (Consulting/Contracting Projects)
+                          - generic [ref=e206]:
+                            - strong [ref=e207]: "Exp:"
+                            - text: 8 years
+                          - generic [ref=e208]:
+                            - strong [ref=e209]: "Status:"
+                            - text: SureCafe Review - Select
+                      - generic [ref=e211]:
+                        - generic "Send Email" [ref=e212]:
+                          - generic "Send Email" [ref=e213]: 
+                        - generic "Candidate Communication Details" [ref=e214]:
+                          - generic [ref=e215]: 
+                        - generic "Change Status" [ref=e216]:
+                          - generic [ref=e217]: 
+                        - generic "View Career Arc" [ref=e218]:
+                          - generic [ref=e219]: 
+                  - generic [ref=e220]:
+                    - generic [ref=e221]: Interview Stage (1)
+                    - generic [ref=e223] [cursor=pointer]:
+                      - generic [ref=e224]:
+                        - generic [ref=e225]: Seema Kale
+                        - generic [ref=e226]:
+                          - generic [ref=e227]:
+                            - strong [ref=e228]: "Role:"
+                            - text: Laravel Developer
+                          - generic [ref=e229]:
+                            - strong [ref=e230]: "Exp:"
+                            - text: 4 years
+                          - generic [ref=e231]:
+                            - strong [ref=e232]: "Status:"
+                            - text: Client Review Pending
+                      - generic [ref=e234]:
+                        - generic "Initial Video Analysis" [ref=e235]:
+                          - generic [ref=e236]: 
+                        - generic "Bot Interview Analysis" [ref=e237]:
+                          - generic [ref=e238]: 
+                        - generic "Send Email" [ref=e239]:
+                          - generic "Send Email" [ref=e240]: 
+                        - generic "Candidate Communication Details" [ref=e241]:
+                          - generic [ref=e242]: 
+                        - generic "Change Status" [ref=e243]:
+                          - generic [ref=e244]: 
+                        - generic "View Career Arc" [ref=e245]:
+                          - generic [ref=e246]: 
+                  - generic [ref=e248]: ShortListed (0)
+                  - generic [ref=e250]: Onboarded (0)
+                  - generic [ref=e251]:
+                    - generic [ref=e252]: Rejected (1)
+                    - generic [ref=e254] [cursor=pointer]:
+                      - generic [ref=e255]:
+                        - generic [ref=e256]: Harish
+                        - generic [ref=e257]:
+                          - generic [ref=e258]:
+                            - strong [ref=e259]: "Role:"
+                            - text: PHP Developer
+                          - generic [ref=e260]:
+                            - strong [ref=e261]: "Exp:"
+                            - text: 4+ years
+                          - generic [ref=e262]:
+                            - strong [ref=e263]: "Status:"
+                            - text: Rejected
+                      - generic [ref=e265]:
+                        - generic "Send Email" [ref=e266]:
+                          - generic "Send Email" [ref=e267]: 
+                        - generic "Candidate Communication Details" [ref=e268]:
+                          - generic [ref=e269]: 
+                        - generic "Change Status" [ref=e270]:
+                          - generic [ref=e271]: 
+                        - generic "View Career Arc" [ref=e272]:
+                          - generic [ref=e273]: 
+              - generic [ref=e274]:
+                - generic [ref=e276]:
+                  - heading " Guitar Artist" [level=5] [ref=e277]
+                  - generic [ref=e278]: 2 candidates
+                  - button "↗️ Share Details" [ref=e279] [cursor=pointer]
+                - generic [ref=e280]:
+                  - generic [ref=e282]: Leads (0)
+                  - generic [ref=e283]:
+                    - generic [ref=e284]: Screening Process (2)
+                    - generic [ref=e285]:
+                      - generic [ref=e286] [cursor=pointer]:
+                        - generic [ref=e287]:
+                          - generic [ref=e288]: Daniel Carter
+                          - generic [ref=e289]:
+                            - generic [ref=e290]:
+                              - strong [ref=e291]: "Role:"
+                              - text: Guitar Artist
+                            - generic [ref=e292]:
+                              - strong [ref=e293]: "Exp:"
+                              - text: 2 years
+                            - generic [ref=e294]:
+                              - strong [ref=e295]: "Status:"
+                              - text: Evaluation Requested
+                        - generic [ref=e297]:
+                          - generic "Interview Analysis" [ref=e298]:
+                            - generic [ref=e299]: 
+                          - generic "Send Email" [ref=e300]:
+                            - generic "Send Email" [ref=e301]: 
+                          - generic "Candidate Communication Details" [ref=e302]:
+                            - generic [ref=e303]: 
+                          - generic "Change Status" [ref=e304]:
+                            - generic [ref=e305]: 
+                          - generic "View Career Arc" [ref=e306]:
+                            - generic [ref=e307]: 
+                      - generic [ref=e308] [cursor=pointer]:
+                        - generic [ref=e309]:
+                          - generic [ref=e310]: Geeta Srivastav
+                          - generic [ref=e311]:
+                            - generic [ref=e312]:
+                              - strong [ref=e313]: "Role:"
+                              - text: Freelance Guitar Artist
+                            - generic [ref=e314]:
+                              - strong [ref=e315]: "Exp:"
+                              - text: Over 2 years
+                            - generic [ref=e316]:
+                              - strong [ref=e317]: "Status:"
+                              - text: Evaluation Requested
+                        - generic [ref=e319]:
+                          - generic "Send Email" [ref=e320]:
+                            - generic "Send Email" [ref=e321]: 
+                          - generic "Candidate Communication Details" [ref=e322]:
+                            - generic [ref=e323]: 
+                          - generic "Change Status" [ref=e324]:
+                            - generic [ref=e325]: 
+                          - generic "View Career Arc" [ref=e326]:
+                            - generic [ref=e327]: 
+                  - generic [ref=e329]: SureCafe Evaluation (0)
+                  - generic [ref=e331]: SureCafe Review (0)
+                  - generic [ref=e333]: Interview Stage (0)
+                  - generic [ref=e335]: ShortListed (0)
+                  - generic [ref=e337]: Onboarded (0)
+                  - generic [ref=e339]: Rejected (0)
+              - generic [ref=e340]:
+                - generic [ref=e342]:
+                  - heading " Jr. Full Stack Developer India" [level=5] [ref=e343]
+                  - generic [ref=e344]: 4 candidates
+                  - button "↗️ Share Details" [ref=e345] [cursor=pointer]
+                - generic [ref=e346]:
+                  - generic [ref=e348]: Leads (0)
+                  - generic [ref=e349]:
+                    - generic [ref=e350]: Screening Process (1)
+                    - generic [ref=e352] [cursor=pointer]:
+                      - generic [ref=e353]:
+                        - generic [ref=e354]: Samantha
+                        - generic [ref=e355]:
+                          - generic [ref=e356]:
+                            - strong [ref=e357]: "Role:"
+                            - text: Software Developer
+                          - generic [ref=e358]:
+                            - strong [ref=e359]: "Exp:"
+                            - text: 8 years
+                          - generic [ref=e360]:
+                            - strong [ref=e361]: "Status:"
+                            - text: Evaluation Requested
+                      - generic [ref=e363]:
+                        - generic "Send Email" [ref=e364]:
+                          - generic "Send Email" [ref=e365]: 
+                        - generic "Candidate Communication Details" [ref=e366]:
+                          - generic [ref=e367]: 
+                        - generic "Change Status" [ref=e368]:
+                          - generic [ref=e369]: 
+                        - generic "View Career Arc" [ref=e370]:
+                          - generic [ref=e371]: 
+                  - generic [ref=e373]: SureCafe Evaluation (0)
+                  - generic [ref=e374]:
+                    - generic [ref=e375]: SureCafe Review (3)
+                    - generic [ref=e376]:
+                      - generic [ref=e377] [cursor=pointer]:
+                        - generic [ref=e378]:
+                          - generic [ref=e379]: Rahul Sharma
+                          - generic [ref=e380]:
+                            - generic [ref=e381]:
+                              - strong [ref=e382]: "Role:"
+                              - text: CodeIgniter Developer
+                            - generic [ref=e383]:
+                              - strong [ref=e384]: "Exp:"
+                              - text: 4 years
+                            - generic [ref=e385]:
+                              - strong [ref=e386]: "Status:"
+                              - text: SureCafe Review - Select
+                        - generic [ref=e388]:
+                          - generic "Send Email" [ref=e389]:
+                            - generic "Send Email" [ref=e390]: 
+                          - generic "Candidate Communication Details" [ref=e391]:
+                            - generic [ref=e392]: 
+                          - generic "Change Status" [ref=e393]:
+                            - generic [ref=e394]: 
+                          - generic "View Career Arc" [ref=e395]:
+                            - generic [ref=e396]: 
+                      - generic [ref=e397] [cursor=pointer]:
+                        - generic [ref=e398]:
+                          - generic [ref=e399]: Sandeep Kadam
+                          - generic [ref=e400]:
+                            - generic [ref=e401]:
+                              - strong [ref=e402]: "Role:"
+                              - text: Senior PHP Developer
+                            - generic [ref=e403]:
+                              - strong [ref=e404]: "Exp:"
+                              - text: 8 years
+                            - generic [ref=e405]:
+                              - strong [ref=e406]: "Status:"
+                              - text: SureCafe Review - Select
+                        - generic [ref=e408]:
+                          - generic "Send Email" [ref=e409]:
+                            - generic "Send Email" [ref=e410]: 
+                          - generic "Candidate Communication Details" [ref=e411]:
+                            - generic [ref=e412]: 
+                          - generic "Change Status" [ref=e413]:
+                            - generic [ref=e414]: 
+                          - generic "View Career Arc" [ref=e415]:
+                            - generic [ref=e416]: 
+                      - generic [ref=e417] [cursor=pointer]:
+                        - generic [ref=e418]:
+                          - generic [ref=e419]: Pankaj Kumar Sahu
+                          - generic [ref=e420]:
+                            - generic [ref=e421]:
+                              - strong [ref=e422]: "Role:"
+                              - text: Lead Software Engineer
+                            - generic [ref=e423]:
+                              - strong [ref=e424]: "Exp:"
+                              - text: 9 Years
+                            - generic [ref=e425]:
+                              - strong [ref=e426]: "Status:"
+                              - text: SureCafe Review - Select
+                        - generic [ref=e428]:
+                          - generic "Send Email" [ref=e429]:
+                            - generic "Send Email" [ref=e430]: 
+                          - generic "Candidate Communication Details" [ref=e431]:
+                            - generic [ref=e432]: 
+                          - generic "Change Status" [ref=e433]:
+                            - generic [ref=e434]: 
+                          - generic "View Career Arc" [ref=e435]:
+                            - generic [ref=e436]: 
+                  - generic [ref=e438]: Interview Stage (0)
+                  - generic [ref=e440]: ShortListed (0)
+                  - generic [ref=e442]: Onboarded (0)
+                  - generic [ref=e444]: Rejected (0)
+              - generic [ref=e445]:
+                - generic [ref=e447]:
+                  - heading " Laravel Developer" [level=5] [ref=e448]
+                  - generic [ref=e449]: 3 candidates
+                  - button "↗️ Share Details" [ref=e450] [cursor=pointer]
+                - generic [ref=e451]:
+                  - generic [ref=e453]: Leads (0)
+                  - generic [ref=e454]:
+                    - generic [ref=e455]: Screening Process (2)
+                    - generic [ref=e456]:
+                      - generic [ref=e457] [cursor=pointer]:
+                        - generic [ref=e458]:
+                          - generic [ref=e459]: Harish
+                          - generic [ref=e460]:
+                            - generic [ref=e461]:
+                              - strong [ref=e462]: "Role:"
+                              - text: PHP Developer
+                            - generic [ref=e463]:
+                              - strong [ref=e464]: "Exp:"
+                              - text: 4+ years
+                            - generic [ref=e465]:
+                              - strong [ref=e466]: "Status:"
+                              - text: Evaluation Requested
+                        - generic [ref=e468]:
+                          - generic "Send Email" [ref=e469]:
+                            - generic "Send Email" [ref=e470]: 
+                          - generic "Candidate Communication Details" [ref=e471]:
+                            - generic [ref=e472]: 
+                          - generic "Change Status" [ref=e473]:
+                            - generic [ref=e474]: 
+                          - generic "View Career Arc" [ref=e475]:
+                            - generic [ref=e476]: 
+                      - generic [ref=e477] [cursor=pointer]:
+                        - generic [ref=e478]:
+                          - generic [ref=e479]: Daina Zen
+                          - generic [ref=e480]:
+                            - generic [ref=e481]:
+                              - strong [ref=e482]: "Role:"
+                              - text: PHP Developer
+                            - generic [ref=e483]:
+                              - strong [ref=e484]: "Exp:"
+                              - text: 4+ years
+                            - generic [ref=e485]:
+                              - strong [ref=e486]: "Status:"
+                              - text: Evaluation Requested
+                        - generic [ref=e488]:
+                          - generic "Send Email" [ref=e489]:
+                            - generic "Send Email" [ref=e490]: 
+                          - generic "Candidate Communication Details" [ref=e491]:
+                            - generic [ref=e492]: 
+                          - generic "Change Status" [ref=e493]:
+                            - generic [ref=e494]: 
+                          - generic "View Career Arc" [ref=e495]:
+                            - generic [ref=e496]: 
+                  - generic [ref=e497]:
+                    - generic [ref=e498]: SureCafe Evaluation (1)
+                    - generic [ref=e500] [cursor=pointer]:
+                      - generic [ref=e501]:
+                        - generic [ref=e502]: Seema Kale
+                        - generic [ref=e503]:
+                          - generic [ref=e504]:
+                            - strong [ref=e505]: "Role:"
+                            - text: Laravel Developer
+                          - generic [ref=e506]:
+                            - strong [ref=e507]: "Exp:"
+                            - text: 4 years
+                          - generic [ref=e508]:
+                            - strong [ref=e509]: "Status:"
+                            - text: Evaluation Scheduled
+                      - generic [ref=e511]:
+                        - generic "Bot Interview Analysis" [ref=e512]:
+                          - generic [ref=e513]: 
+                        - generic "Schedule Interview" [ref=e514]:
+                          - generic [ref=e515]: 
+                        - generic "Send Email" [ref=e516]:
+                          - generic "Send Email" [ref=e517]: 
+                        - generic "Candidate Communication Details" [ref=e518]:
+                          - generic [ref=e519]: 
+                        - generic "Change Status" [ref=e520]:
+                          - generic [ref=e521]: 
+                        - generic "View Career Arc" [ref=e522]:
+                          - generic [ref=e523]: 
+                  - generic [ref=e525]: SureCafe Review (0)
+                  - generic [ref=e527]: Interview Stage (0)
+                  - generic [ref=e529]: ShortListed (0)
+                  - generic [ref=e531]: Onboarded (0)
+                  - generic [ref=e533]: Rejected (0)
+              - generic [ref=e534]:
+                - generic [ref=e536]:
+                  - heading " Sr. PHP Developer" [level=5] [ref=e537]
+                  - generic [ref=e538]: 4 candidates
+                  - button "↗️ Share Details" [ref=e539] [cursor=pointer]
+                - generic [ref=e540]:
+                  - generic [ref=e541]:
+                    - generic [ref=e542]: Leads (1)
+                    - generic [ref=e544] [cursor=pointer]:
+                      - generic [ref=e545]:
+                        - generic [ref=e546]: Sandeep Kadam
+                        - generic [ref=e547]:
+                          - generic [ref=e548]:
+                            - strong [ref=e549]: "Role:"
+                            - text: Senior PHP Developer
+                          - generic [ref=e550]:
+                            - strong [ref=e551]: "Exp:"
+                            - text: 8 years
+                          - generic [ref=e552]:
+                            - strong [ref=e553]: "Status:"
+                            - text: Leads
+                      - generic [ref=e555]:
+                        - generic "Send Email" [ref=e556]:
+                          - generic "Send Email" [ref=e557]: 
+                        - generic "Candidate Communication Details" [ref=e558]:
+                          - generic [ref=e559]: 
+                        - generic "Change Status" [ref=e560]:
+                          - generic [ref=e561]: 
+                        - generic "View Career Arc" [ref=e562]:
+                          - generic [ref=e563]: 
+                  - generic [ref=e564]:
+                    - generic [ref=e565]: Screening Process (1)
+                    - generic [ref=e567] [cursor=pointer]:
+                      - generic [ref=e568]:
+                        - generic [ref=e569]: Sandeep Kadam
+                        - generic [ref=e570]:
+                          - generic [ref=e571]:
+                            - strong [ref=e572]: "Role:"
+                            - text: PHP Developer
+                          - generic [ref=e573]:
+                            - strong [ref=e574]: "Exp:"
+                            - text: 8 years
+                          - generic [ref=e575]:
+                            - strong [ref=e576]: "Status:"
+                            - text: Evaluation Requested
+                      - generic [ref=e578]:
+                        - generic "Initial Video Analysis" [ref=e579]:
+                          - generic [ref=e580]: 
+                        - generic "Interview Analysis" [ref=e581]:
+                          - generic [ref=e582]: 
+                        - generic "Bot Interview Analysis" [ref=e583]:
+                          - generic [ref=e584]: 
+                        - generic "Send Email" [ref=e585]:
+                          - generic "Send Email" [ref=e586]: 
+                        - generic "Candidate Communication Details" [ref=e587]:
+                          - generic [ref=e588]: 
+                        - generic "Change Status" [ref=e589]:
+                          - generic [ref=e590]: 
+                        - generic "View Career Arc" [ref=e591]:
+                          - generic [ref=e592]: 
+                  - generic [ref=e594]: SureCafe Evaluation (0)
+                  - generic [ref=e595]:
+                    - generic [ref=e596]: SureCafe Review (1)
+                    - generic [ref=e598] [cursor=pointer]:
+                      - generic [ref=e599]:
+                        - generic [ref=e600]: Vishal Kelly
+                        - generic [ref=e601]:
+                          - generic [ref=e602]:
+                            - strong [ref=e603]: "Role:"
+                            - text: PHP Developer (Consulting/Contracting Projects)
+                          - generic [ref=e604]:
+                            - strong [ref=e605]: "Exp:"
+                            - text: 8 years
+                          - generic [ref=e606]:
+                            - strong [ref=e607]: "Status:"
+                            - text: SureCafe Review - Select
+                      - generic [ref=e609]:
+                        - generic "Send Email" [ref=e610]:
+                          - generic "Send Email" [ref=e611]: 
+                        - generic "Candidate Communication Details" [ref=e612]:
+                          - generic [ref=e613]: 
+                        - generic "Change Status" [ref=e614]:
+                          - generic [ref=e615]: 
+                        - generic "View Career Arc" [ref=e616]:
+                          - generic [ref=e617]: 
+                  - generic [ref=e619]: Interview Stage (0)
+                  - generic [ref=e621]: ShortListed (0)
+                  - generic [ref=e622]:
+                    - generic [ref=e623]: Onboarded (1)
+                    - generic [ref=e625] [cursor=pointer]:
+                      - generic [ref=e626]:
+                        - generic [ref=e627]: Rahul Sharma
+                        - generic [ref=e628]:
+                          - generic [ref=e629]:
+                            - strong [ref=e630]: "Role:"
+                            - text: CodeIgniter Developer
+                          - generic [ref=e631]:
+                            - strong [ref=e632]: "Exp:"
+                            - text: 4 years
+                          - generic [ref=e633]:
+                            - strong [ref=e634]: "Status:"
+                            - text: Onboarding Initiated
+                      - generic [ref=e636]:
+                        - generic "Send Email" [ref=e637]:
+                          - generic "Send Email" [ref=e638]: 
+                        - generic "Candidate Communication Details" [ref=e639]:
+                          - generic [ref=e640]: 
+                        - generic "Change Status" [ref=e641]:
+                          - generic [ref=e642]: 
+                        - generic "View Career Arc" [ref=e643]:
+                          - generic [ref=e644]: 
+                  - generic [ref=e646]: Rejected (0)
+        - generic [ref=e648]:
+          - generic [ref=e649] [cursor=pointer]: ×
+          - heading "Status" [level=3] [ref=e650]
+          - generic [ref=e651]: ✅ Email sent successfully!
+        - generic [ref=e652]:
+          - button " Board" [ref=e653] [cursor=pointer]:
+            - generic [ref=e654]: 
+            - text: Board
+          - button " List" [ref=e655] [cursor=pointer]:
+            - generic [ref=e656]: 
+            - text: List
+        - button "" [ref=e657] [cursor=pointer]:
+          - generic [ref=e658]: 
+        - text:  
+  - text: ✕
+```
